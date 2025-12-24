@@ -3,34 +3,33 @@ import { fontConfig } from "./fontConfig";
 
 // 定义站点语言
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru'。
-const SITE_LANG = "zh_CN";
+const SITE_LANG = "en";
 
 export const siteConfig: SiteConfig = {
-	title: "Firefly",
-	subtitle: "Demo site",
-	site_url: "https://firefly.cuteleaf.cn",
-	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+	title: "PQPGKD",
+	subtitle: "Game Site",
+	site_url: "https://pqpgkd-blog.pages.dev",
+	description: 
+		"Cảm ơn các bạn đã ghé thăm trang web của mình 💖",
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
+		"PQPGKD",
+		"RPG Maker",
+		"Viet hoa",
+		"Game",
+		"Indie Game",
+		"Visual Novel",
 	],
 
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 165, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: false, // 对访问者隐藏主题色选择器
+		hue: 20, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		fixed: false, // Ẩn bộ chọn màu chủ đề đối với người truy cập
 		defaultMode: "system", // 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
 	},
 
 	favicon: [
-		// 留空以使用默认 favicon
+		// Để trống để sử dụng favicon mặc định
 		{
 			src: "/assets/images/favicon.ico", // 图标文件路径
 			theme: "light", // 可选，指定主题 'light' | 'dark'
@@ -45,27 +44,27 @@ export const siteConfig: SiteConfig = {
 	// { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
 	navbarLogo: {
 		type: "image",
-		value: "/assets/images/LiuYingPure3.svg",
+		value: "/assets/images/Cutecat.svg",
 		alt: "🍀",
 	},
-	navbarTitle: "Firefly", // 导航栏标题，可以设置为与 title 不同的值，如果不设置则使用 title
-	navbarWidthFull: false, // 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
+	navbarTitle: "PQPGKD", // Tiêu đề thanh điều hướng có thể được thiết lập khác với title; nếu không thiết lập thì sẽ sử dụng title
+	navbarWidthFull: false, // Thanh điều hướng toàn chiều rộng: xác định liệu thanh điều hướng có chiếm toàn bộ chiều rộng màn hình hay không.
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
+	siteStartDate: "2022-01-01", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
 
 	// bangumi配置
 	bangumi: {
-		userId: "1163581", // 在此处设置你的Bangumi用户ID
+		userId: "", // 在此处设置你的Bangumi用户ID
 	},
 
-	// 文章页底部的"上次编辑时间"卡片开关
+	// Công tắc bật/tắt thẻ “Thời gian chỉnh sửa lần cuối” ở cuối trang bài viết
 	showLastModified: true,
 
-	// 文章过期阈值（天数），超过此天数才显示"上次编辑"卡片
+	// Ngưỡng hết hạn của bài viết (tính theo ngày); chỉ khi vượt quá số ngày này mới hiển thị thẻ “Chỉnh sửa lần cuối”.
 	outdatedThreshold: 30,
 
-	// OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
+	// Chức năng ảnh OpenGraph; lưu ý sau khi bật sẽ mất rất nhiều thời gian để render, không khuyến nghị bật khi debug/chạy thử ở môi trường local.
 	generateOgImages: false,
 
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
@@ -94,7 +93,7 @@ export const siteConfig: SiteConfig = {
 	// 分页配置
 	pagination: {
 		// 每页显示的文章数量
-		postsPerPage: 10,
+		postsPerPage: 8,
 	},
 
 	backgroundWallpaper: {
@@ -116,29 +115,26 @@ export const siteConfig: SiteConfig = {
 			// 图片位置
 			// 支持所有CSS object-position值，如: 'top', 'center', 'bottom', 'left top', 'right bottom', '25% 75%', '10px 20px'..
 			// 如果不知道怎么配置百分百之类的配置，推荐直接使用：'center'居中，'top'顶部居中，'bottom' 底部居中，'left'左侧居中，'right'右侧居中
-			position: "0% 20%",
+			position: "0% 40%",
 
 			homeText: {
 				// 主页显示自定义文本（全局开关）
 				enable: true,
 				// 主页横幅主标题
-				title: "Lovely firefly!",
+				title: "Hello my friend!",
 				// 主页横幅副标题
 				subtitle: [
-					"In Reddened Chrysalis, I Once Rest",
-					"From Shattered Sky, I Free Fall",
-					"Amidst Silenced Stars, I Deep Sleep",
-					"Upon Lighted Fyrefly, I Soon Gaze",
-					"From Undreamt Night, I Thence Shine",
-					"In Finalized Morrow, I Full Bloom",
+					"Game Vui Dành Cho Các Bạn ^ ^ ",
+					"Chào Mừng Đến Với PQPGKD",
+					"Cảm Ơn Các Bạn Đã Ghé Thăm 💖",
 				],
 				typewriter: {
 					//打字机开启 → 循环显示所有副标题
 					//打字机关闭 → 每次刷新随机显示一条副标题
-					enable: false, // 启用副标题打字机效果
+					enable: true, // 启用副标题打字机效果
 					speed: 100, // 打字速度（毫秒）
 					deleteSpeed: 50, // 删除速度（毫秒）
-					pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
+					pauseTime: 5000, // Thời gian tạm dừng sau khi hiển thị hoàn toàn (tính bằng mili giây)
 				},
 			},
 			credit: {
@@ -147,12 +143,12 @@ export const siteConfig: SiteConfig = {
 					mobile: true, // 移动端显示横幅图片来源文本
 				},
 				text: {
-					desktop: "Pixiv - 晚晚喵", // 桌面端要显示的来源文本
-					mobile: "Pixiv - KiraraShss", // 移动端要显示的来源文本
+					desktop: "Facebook - P q p g k D ", // 桌面端要显示的来源文本
+					mobile: "Facebook - P q p g k D ", // 移动端要显示的来源文本
 				},
 				url: {
-					desktop: "https://www.pixiv.net/artworks/135490046", // 桌面端原始艺术品或艺术家页面的 URL 链接
-					mobile: "https://www.pixiv.net/users/42715864", // 移动端原始艺术品或艺术家页面的 URL 链接
+					desktop: "https://www.facebook.com/PqpgkD", // 桌面端原始艺术品或艺术家页面的 URL 链接
+					mobile: "https://www.facebook.com/PqpgkD", // 移动端原始艺术品或艺术家页面的 URL 链接
 				},
 			},
 			navbar: {
@@ -162,7 +158,7 @@ export const siteConfig: SiteConfig = {
 			waves: {
 				enable: {
 					desktop: true, // 桌面端启用波浪动画效果
-					mobile: true, // 移动端启用波浪动画效果
+					mobile: false, // 移动端启用波浪动画效果
 				},
 				performance: {
 					quality: "high",
@@ -177,7 +173,7 @@ export const siteConfig: SiteConfig = {
 			},
 		},
 
-		// 全屏透明覆盖模式特有配置
+		// Cấu hình riêng cho chế độ lớp phủ trong suốt toàn màn hình
 		overlay: {
 			zIndex: -1, // 层级，确保壁纸在背景层
 			opacity: 0.8, // 壁纸透明度
