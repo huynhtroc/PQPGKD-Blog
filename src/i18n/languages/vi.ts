@@ -157,7 +157,7 @@ export const vi: Translation = {
 	[Key.lastModifiedPrefix]: "Cập nhật lần cuối vào ",
 	[Key.lastModifiedOutdated]: "Một số nội dung có thể đã lỗi thời",
 	[Key.lastModifiedDaysAgo]: "{days} ngày trước",
-	[Key.year]: " năm",
+	[Key.year]: " Năm",
 	[Key.month]: "tháng",
 	[Key.day]: "ngày",
 	[Key.hour]: "giờ",

@@ -3,14 +3,14 @@ title: White Dove
 published: 2012-12-06
 pinned: false
 description: White Dove là một trò chơi giải đố với một chút yếu tố kinh dị.
-tags: [16+,1h Chơi,6 Ending,Vx Ace,Kinh dị, Giải đố, Gia đình, Tâm lý, ]
+tags: [16+,Dưới 2h,Vx Ace,Kinh dị, Giải đố, Gia đình, Tâm lý, ]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: Thủy Dã (水野·迪尔)
 sourceLink: "https://rpg.blue/forum.php?mod=viewthread&tid=255300"
 draft: false
 date: 2025-01-20
-image: https://rpg.blue/forum.php?mod=attachment&aid=MTQzNjk1fDhjYmViZjkyfDE3NjY2MjQ4OTZ8MHwyNTUzMDA%3D&noupdate=yes
+image: /assets/images/Post/White-Dove/01.jpg
 pubDate: 2025-01-20
 ---
 <iframe width="100%" height="468" src="https://www.youtube.com/embed/NDwn0fMq720" title="[White Dove - Việt hóa] Tại sao &quot;dove&quot; là &quot;chim sẻ&quot;? || #1 (True Ending &amp; Bad Ending)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

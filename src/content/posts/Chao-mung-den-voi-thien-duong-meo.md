@@ -3,7 +3,7 @@ title: Chào Mừng Đến Với Thiên Đường Mèo
 published: 2025-01-01
 pinned: True
 description: Chào mừng đến với thiên đường mèo là một trò chơi giải đố với một chút yếu tố kinh dị.
-tags: [12+,30p Chơi,1 Ending,MV,Phiêu lưu, Tình bạn, Âm nhạc, Bí ẩn, ]
+tags: [12+,Dưới 2h,MV,Phiêu lưu, Tình bạn, Âm nhạc, Bí ẩn, ]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: 小天skyo
@@ -27,7 +27,8 @@ Xin chào các bạn ^ ^
 
 ## 【Giới thiệu game】
 
-Mero là một nữ sinh trung học bình thường. Sau khi ngắm trận mưa sao băng, cô lạc vào một thế giới kì lạ. Đó là thiên đường của mèo.
+- Mero là một nữ sinh trung học bình thường. Sau khi ngắm trận mưa sao băng, cô lạc vào một thế giới kì lạ. Đó là thiên đường của mèo.
+- Game có nội dung tầm 30p chơi với 1 Ending
 
 ## 【Ảnh chụp màn hình】
 

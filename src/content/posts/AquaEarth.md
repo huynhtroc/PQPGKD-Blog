@@ -3,7 +3,7 @@ title: AquaEarth
 published: 2012-04-08
 pinned: false
 description: Trên một hành tinh hoang vắng nhưng ấm áp, một cô gái sinh ra từ kén du hành về phía bắc, tìm kiếm dấu vết của nền văn minh.
-tags: [12+,15p Chơi,3 Ending,Vx Ace,Phiêu lưu, Tình bạn, Bí ẩn, Âm nhạc]
+tags: [12+,Dưới 2h,Vx Ace,Phiêu lưu, Tình bạn, Bí ẩn, Âm nhạc]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: Psitta
@@ -18,7 +18,8 @@ pubDate: 2025-01-20
 ---
 ## 【Giới thiệu game】
 
-- Nội dung của trò chơi này không liên quan đến bất kỳ cá nhân, nhóm hoặc sự kiện nào trong thế giới thực.
+- Trên một hành tinh hoang vắng nhưng ấm áp, một cô gái sinh ra từ kén du hành về phía bắc, tìm kiếm dấu vết của nền văn minh.
+- Game có nội dung tầm 10p chơi với 3 Ending
 
 ## 【Ảnh chụp màn hình】
 

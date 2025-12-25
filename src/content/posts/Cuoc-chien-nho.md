@@ -2,8 +2,8 @@
 title: Cuộc chiến nhỏ
 published: 2017-04-05
 pinned: false
-description: Một trò chơi chiến thuật theo lượt, rất ngắn.
-tags: [12+,10p Chơi,2 Ending,Vx Ace,Gia đình, Hành động, Tâm lý, Bí ẩn]
+description: Hãy nghĩ đến gia đình trong những lúc mệt mỏi nhất.
+tags: [12+,Dưới 2h,Vx Ace,Gia đình, Hành động, Tâm lý, Bí ẩn]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: Khoảng Trống
@@ -19,6 +19,8 @@ pubDate: 2025-01-20
 ## 【Giới thiệu game】
 
 - Trò chơi được làm nhanh để gửi dự thi.
+- Một trò chơi chiến thuật theo lượt, rất ngắn.
+- Game có nội dung tầm 10p chơi với 2 Ending
 
 ## 【Ảnh chụp màn hình】
 
