@@ -7,7 +7,7 @@ export const adConfig1: AdConfig = {
 	image: {
 		src: "/assets/images/d1.webp",
 		alt: "Banner quảng cáo",
-		link: "#",
+		link: "/posts/chao-mung-den-voi-thien-duong-meo/",
 		external: true,
 	},
 	closable: true, // 是否可关闭
@@ -24,17 +24,17 @@ export const adConfig1: AdConfig = {
 
 // 广告配置2 - 完整内容广告
 export const adConfig2: AdConfig = {
-	title: "Banner quảng cáo",
+	title: "Game sắp dịch xong",
 	content:
-		"Đây là banner quảng cáo cho game sắp ra mắt của mình. Hãy ủng hộ mình nhé!",
+		"Đây là banner quảng cáo cho game sắp xong, tìm hiểu thêm nhé!",
 	image: {
 		src: "/assets/images/d2.webp",
 		alt: "Banner quảng cáo",
-		link: "about/",
+		link: "/about/",
 		external: false,
 	},
 	link: {
-		text: "Ủng hộ mình",
+		text: "tìm hiểu thêm",
 		url: "/about/",
 		external: false,
 	},
