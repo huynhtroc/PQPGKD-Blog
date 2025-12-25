@@ -6,7 +6,7 @@ import type { AdConfig } from "../types/config";
 export const adConfig1: AdConfig = {
 	image: {
 		src: "/assets/images/d1.webp",
-		alt: "广告横幅",
+		alt: "Banner quảng cáo",
 		link: "#",
 		external: true,
 	},
@@ -24,18 +24,18 @@ export const adConfig1: AdConfig = {
 
 // 广告配置2 - 完整内容广告
 export const adConfig2: AdConfig = {
-	title: "支持博主",
+	title: "Banner quảng cáo",
 	content:
-		"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。",
+		"Đây là banner quảng cáo cho game sắp ra mắt của mình. Hãy ủng hộ mình nhé!",
 	image: {
 		src: "/assets/images/d2.webp",
-		alt: "支持博主",
+		alt: "Banner quảng cáo",
 		link: "about/",
 		external: false,
 	},
 	link: {
-		text: "支持一下",
-		url: "about/",
+		text: "Ủng hộ mình",
+		url: "/about/",
 		external: false,
 	},
 	closable: true,

@@ -6,7 +6,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
 
 	// 使用方式：'meting' 或 'local'
-	mode: "meting", // "meting" 使用 Meting API，"local" 使用本地音乐列表
+	mode: "local", // "meting" 使用 Meting API，"local" 使用本地音乐列表
 
 	// Meting API 配置
 	meting: {
@@ -43,11 +43,18 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.wav",
-				cover: "/assets/music/cover/109951169585655912.jpg",
-				lrc: "", // 歌词内容，支持 LRC 格式
+				name: "Far Away - feat. 初音ミク",
+      			artist: "kz-livetune",
+      			url: "/assets/music/faraway.mp3",
+      			cover: "/assets/music/cover/1654168484688641684.png",
+      			lrc: "",
+			},
+			{
+				name: "Far Away - feat. 初音ミク",
+      			artist: "kz-livetune",
+      			url: "/assets/music/faraway.mp3",
+      			cover: "/assets/music/cover/1654168484688641684.png",
+      			lrc: "",
 			},
 		],
 	},
