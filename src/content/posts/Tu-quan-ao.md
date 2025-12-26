@@ -16,28 +16,31 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/1mGdJGFIuBcdGeLKYmthSj_mq1mjtq42C/view) 
 ---
-## 【Giới thiệu game】
+## 📖【Giới thiệu game】
 
 - Bạn cùng phòng mới của Lyly, là một người phụ nữ bí ẩn tên July. Trong lúc July vắng nhà, Lyly vô tình phát hiện ra bí mật của cô ấy...
+:::note
 - Game có nội dung tầm 30p chơi với 2 Ending
-
-## 【Ảnh chụp màn hình】
+:::
+## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Tu-quan-ao/02.webp)
 ![**Ảnh game**](./images/Post/Tu-quan-ao/03.webp)
 ![**Ảnh game**](https://truth.bahamut.com.tw/s01/201405/6672fb209c568e6474cb24726cc3088c.PNG)
 ![**Ảnh game**](https://truth.bahamut.com.tw/s01/201405/6d7c73def989dfae2c56b0b44d271b4e.PNG)
 
-## 【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
-- Di chuyển: Phím mũi tên  
-- Điều tra / Xác nhận: Z / Space  
-- Menu / Hủy: X / ESC  
-- Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-- Tăng tốc: Shift  
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift                                                                                                                                  |
 
 ## 【Lưu ý】
-
+:::tip
 Không có lưu ý nào cả!
-
+:::
 🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0

@@ -17,7 +17,7 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/189Mi7s6xDYdSRV5hj-CSgVzc0QJFV49i/view) 
 ---
-## 【Lời nói đầu】
+## 🌟【Lời nói đầu】
 
 Tôi đã sử dụng **RPG Maker** được một thời gian rồi… nhưng vẫn chưa cho ra mắt nhiều sản phẩm hoàn chỉnh, chủ yếu chỉ tập trung vào RPG.
 
@@ -32,7 +32,7 @@ Dù là game kinh dị giải đố, nhưng **kết cục lại khá “chữa l
 Hy vọng tác phẩm này có thể đáp ứng được mong đợi của mọi người (chắc thế…)
 
 
-## 【Giới thiệu game】
+## 📖【Giới thiệu game】
 
 Không biết phải viết giới thiệu sao nữa, đại khái là… mọi người hiểu mà ha……
 :::note
@@ -59,18 +59,19 @@ Thời lượng chơi thì hình như không ghi trực tiếp được, nhưng 
 ![**Góc dưới bên phải bức tranh có dòng chữ (Búp bê gấu treo cổ)**](https://rpg.blue/forum.php?mod=attachment&aid=MTQzNjk2fDlkNWU4Zjg4fDE3NjY2MjcyMjl8MHwyNTUzMDA%3D&noupdate=yes)
 ![**Lười dịch**](https://rpg.blue/forum.php?mod=attachment&aid=MTQzNjk4fDk0MDQ4ZThmfDE3NjY2MzAyNDZ8MHwyNTUzMDA%3D&noupdate=yes)
 
-## 📖【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
-- Di chuyển: Phím mũi tên  
-- Điều tra / Xác nhận: Z / Space  
-- Menu / Hủy: X / ESC  
-- Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-- Tăng tốc: Shift  
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift                                                                                                                                  |
 
 *(Để cảm nhận không khí tốt hơn thì không khuyến khích tăng tốc quá nhiều, nhưng yên tâm là **không có cảnh truy đuổi** đâu~)*
 
-
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 :::tip
 - Trong game có các hình ảnh và âm thanh xuất hiện đột ngột để “hù”, vì vậy hãy cẩn thận…  
 - Ở màn hình tiêu đề, có thể dùng phím mũi tên trái/phải để chọn **Start** hoặc **Load** (tại lúc chơi thử đã từng có người không biết mà bấm nhầm...)  
@@ -89,5 +90,4 @@ Sau đây là **một số BUG có khả năng xảy ra**:
 3. Ở tầng 4, khu vực bên trái **có khả năng tự dưng “sống lại”** sau khi kết thúc ở tầng hầm, vì vậy hãy **xử lý xong hai bên trái/phải của tầng 4 trước**, rồi hẵng xuống tầng hầm.【Cái này cực kỳ quái... vì trong game hoàn toàn không hề thiết lập như vậy...】
 :::
 
-🫰
-Cuối cùng, **chúc mọi người chơi game vui vẻ** 0w0
+🫰Cuối cùng, **chúc mọi người chơi game vui vẻ** 0w0
