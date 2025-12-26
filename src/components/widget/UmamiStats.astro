@@ -27,9 +27,9 @@ const { class: className, style } = Astro.props;
 
 <script>
 const UMAMI_CONFIG = {
-    baseUrl: 'https://umami-blog-two.vercel.app/api',
-    websiteId: '49595173-f725-40bd-99e8-51808bd43592',
-    shareToken: 'YDPkbZIsNZH9lZQw'
+    baseUrl: "https://umami-blog-two.vercel.app/api",
+    websiteId: "49595173-f725-40bd-99e8-51808bd43592",
+    shareToken: "Bearer dktTWTMDzWXMnLOIqPPPquHMvu7akuC07H1RjIDwGVv5iZ45MWPRhPNxmUv2+ZR8CP3GJC8m1o2g21zrVSIQfTDsLqlYkvnbguJuy1Ova+f8C9j2ObC8zNCRBw++2kRAAzXeTt2s8XYV/BSLoNbkSQMBoVU5n6Z+etYQA8EbOdZZQyaiJegL1MpNnuTHw8x+6NPXK8zx8LbIH01KLjA4LUzl10U+nZzl+fpgMQWsjesjy9MYnf5CtDSrpmqfIFZ7Gnw+4Y6FNR6t7WMKnwr5QZCtTTfTtgGxnUncHlRgr7caLVKsRCsaJtQFV/lAEBDdxUKkaPtMQ1I2S2nPizGpbMoCVbUuYy8AkBSLGiR5rMAHUg+Yj9qFbLbSDmLx",
 };
 
 function formatNumber(num: number): string {
@@ -46,13 +46,13 @@ async function fetchUmamiStats() {
         const endAt = Date.now();
         const startAt = 0;
 
-        const url = `${UMAMI_CONFIG.baseUrl}/websites/${UMAMI_CONFIG.websiteId}/stats?startAt=${startAt}&endAt=${endAt}&unit=hour&timezone=Asia%2FShanghai`;
+        const url = `${UMAMI_CONFIG.baseUrl}/websites/${UMAMI_CONFIG.websiteId}/stats?startAt=${startAt}&endAt=${endAt}&unit=hour&timezone=Asia%2FSaigon`;
 
         const response = await fetch(url, {
             method: 'GET',
             headers: {
                 'accept': 'application/json',
-                'x-umami-share-token': UMAMI_CONFIG.shareToken
+                'Authorization': UMAMI_CONFIG.shareToken
             }
         });
 
