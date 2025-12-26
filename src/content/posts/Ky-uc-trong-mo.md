@@ -4,7 +4,7 @@ published: 2014-02-08
 pinned: false
 description: Đây là một câu chuyện về hành trình tìm kiếm chân tướng giữa ranh giới mong manh của thực tại và giấc mơ...
 tags: [16+,2-10h,VX Ace,Gia đình, Bạn bè, Giải đố, Trinh thám]
-category: Đã việt hóa xong
+category: Chưa việt hóa xong
 licenseName: "unlicensed"
 author: Dâu Tây
 sourceLink: "https://memorieswithindreams.weebly.com/"
@@ -18,20 +18,22 @@ pubDate: 2025-01-20
 ---
 ## 【Giới thiệu game】
 
-Khi trăng đêm rơi lệ,
-hương vàng óng ả lan trôi trong gió,
-cô gái bị vây quanh bởi sắc đỏ thẫm.
+Khi trăng đêm rơi lệ,<br>
+Hương vàng óng ả lan trôi trong gió,<br>
+Cô gái bị vây quanh bởi sắc đỏ thẫm.<br>
+<br>
+Nàng bước lên con đường lát đá rực rỡ,<br>
+trong vòng tay thì thầm của sóng biển,<br>
+Những cánh bướm dẫn lối nàng<br>
+Trở về nơi ký ức dừng chân an nghỉ.<br>
+<br>
+Đây là một câu chuyện<br>
+Về hành trình tìm kiếm chân tướng<br>
+Giữa ranh giới mong manh của thực tại và giấc mơ...
 
-Nàng bước lên con đường lát đá rực rỡ,
-trong vòng tay thì thầm của sóng biển,
-những cánh bướm dẫn lối nàng
-trở về nơi ký ức dừng chân an nghỉ.
 
-Đây là một câu chuyện
-về hành trình tìm kiếm chân tướng
-giữa ranh giới mong manh của thực tại và giấc mơ...
 
-- Giới thiệu nhân vật
+## 【Giới thiệu nhân vật】
 
 ![**Nhân vật chính của câu chuyện, Yumeri, du hành giữa thực tại và giấc mơ để tìm kiếm sự thật.**](https://memorieswithindreams.weebly.com/uploads/2/6/2/0/26202735/2912882.png)
 ![**Ray, cậu bé bí ẩn**](https://memorieswithindreams.weebly.com/uploads/2/6/2/0/26202735/2125708.png)

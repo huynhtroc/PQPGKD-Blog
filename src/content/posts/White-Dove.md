@@ -3,7 +3,7 @@ title: White Dove
 published: 2012-12-06
 pinned: false
 description: White Dove là một trò chơi giải đố với một chút yếu tố kinh dị.
-tags: [16+,Dưới 2h,Vx Ace,Kinh dị, Giải đố, Gia đình, Tâm lý, ]
+tags: [16+,Dưới 2h,VX Ace,Kinh dị, Giải đố, Gia đình, Tâm lý, ]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: Thủy Dã (水野·迪尔)

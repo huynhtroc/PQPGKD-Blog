@@ -3,7 +3,7 @@ title: Cuộc chiến nhỏ
 published: 2017-04-05
 pinned: false
 description: Hãy nghĩ đến gia đình trong những lúc mệt mỏi nhất.
-tags: [12+,Dưới 2h,Vx Ace,Gia đình, Hành động, Tâm lý, Bí ẩn]
+tags: [12+,Dưới 2h,VX Ace,Gia đình, Hành động, Tâm lý, Bí ẩn]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: Khoảng Trống
