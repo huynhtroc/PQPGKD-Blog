@@ -9,6 +9,7 @@ import SiteStats from "@/components/widget/SiteStats.astro";
 import Tags from "@/components/widget/Tags.astro";
 import type { WidgetComponentConfig } from "@/types/config";
 import { widgetManager } from "@/utils/widget-manager";
+import UmamiStats from "@/components/widget/UmamiStats.astro";
 
 interface Props {
 	class?: string;
@@ -42,6 +43,7 @@ const componentMap = {
 	advertisement: Advertisement,
 	stats: SiteStats,
 	calendar: Calendar,
+  umami: UmamiStats,
 };
 
 // 渲染组件的辅助函数

@@ -16,6 +16,16 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	// 组件位置position：top=顶部，sticky=粘性定位(会跟随页面滚动)
 	leftComponents: [
 		{
+  			// ✅ Umami 统计组件
+  			type: "umami",
+  			enable: true,
+ 			order: 5, // chỉnh thứ tự hiển thị
+  			position: "sticky", // hoặc "top"
+  			showOnPostPage: true,
+  			class: "onload-animation",
+  			animationDelay: 200,
+		},
+		{
 			// 组件类型：用户资料组件
 			type: "profile",
 			// 是否启用该组件
@@ -87,7 +97,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 5,
+			order: 6,
 			// 组件位置
 			position: "sticky",
 			// CSS 类名
