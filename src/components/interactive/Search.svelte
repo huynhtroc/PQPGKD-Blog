@@ -221,7 +221,7 @@ top-20 left-4 md:left-[unset] right-4 shadow-2xl rounded-2xl p-2">
     <!-- search results -->
     {#if isSearching}
         <div class="transition first-of-type:mt-2 lg:first-of-type:mt-0 block rounded-xl text-lg px-3 py-2 text-50">
-            正在搜索...
+            Đang tìm kiếm...
         </div>
     {:else if result.length > 0}
         {#each result as item}
@@ -237,7 +237,7 @@ top-20 left-4 md:left-[unset] right-4 shadow-2xl rounded-2xl p-2">
                 {#if item.excerpt.includes('<mark>')}
                     <div class="transition text-sm text-50" style="display: flex; align-items: flex-start; margin-top: 0.1rem">
                         <span style="display: inline-block; background-color: var(--btn-plain-bg-hover); color: var(--primary); padding: 0.1em 0.4em; border-radius: 5px; font-size: 0.75em; font-weight: 600; margin-right: 0.5em; flex-shrink: 0;">
-                            摘要
+                            Tóm tắt
                         </span>
                         <div>
                             {@html item.excerpt}
@@ -259,11 +259,11 @@ top-20 left-4 md:left-[unset] right-4 shadow-2xl rounded-2xl p-2">
         {/each}
     {:else if result.length === 0}
         <div class="transition first-of-type:mt-2 lg:first-of-type:mt-0 block rounded-xl text-lg px-3 py-2 text-50">
-            找不到相关结果。
+            Không tìm thấy kết quả liên quan.
         </div>
     {:else if keywordDesktop || keywordMobile}
         <div class="transition first-of-type:mt-2 lg:first-of-type:mt-0 block rounded-xl text-lg px-3 py-2 text-50">
-            请输入搜索关键词。
+            Vui lòng nhập từ khóa tìm kiếm.
         </div>
     {/if}
 </div>

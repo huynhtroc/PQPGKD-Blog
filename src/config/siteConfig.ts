@@ -13,6 +13,7 @@ export const siteConfig: SiteConfig = {
 		"Cảm ơn các bạn đã ghé thăm trang web của mình 💖",
 	keywords: [
 		"PQPGKD",
+		"PQPGKD Blog",
 		"RPG Maker",
 		"Viet hoa",
 		"Game",
