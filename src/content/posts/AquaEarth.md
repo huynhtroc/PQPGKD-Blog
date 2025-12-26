@@ -14,7 +14,7 @@ image: /assets/images/Post/AquaEarth/01.webp
 pubDate: 2025-01-20
 ---
 
->## [Tải Xuống](https://drive.google.com/file/d/1uGdgc50HNRGnpqvXE75X7pc4fNiEwZR8/view) ⬇️
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1uGdgc50HNRGnpqvXE75X7pc4fNiEwZR8/view)
 ---
 ## 【Giới thiệu game】
 
@@ -39,4 +39,4 @@ pubDate: 2025-01-20
 
 Không có lưu ý nào cả!
 
-Cuối cùng chúc mọi người chơi game vui vẻ 0w0
+🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0

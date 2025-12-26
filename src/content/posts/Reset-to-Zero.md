@@ -16,7 +16,7 @@ pubDate: 2025-01-20
 
 <iframe width="100%" height="468" src="https://www.youtube.com/embed/fwKGFMfZbsI" title="[Việt Hóa] Reset to Zero - Bé Tóc Hồng Trông Dễ Thương?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
->## [Tải Xuống](https://drive.google.com/file/d/1hlpzyf7iAf-1ZZK_o_26-vsnk5t600x4/view) ⬇️
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1hlpzyf7iAf-1ZZK_o_26-vsnk5t600x4/view)
 ---
 ## 【Giới thiệu game】
 
@@ -41,4 +41,4 @@ pubDate: 2025-01-20
 
 Không có lưu ý nào cả!
 
-Cuối cùng chúc mọi người chơi game vui vẻ 0w0
+🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0

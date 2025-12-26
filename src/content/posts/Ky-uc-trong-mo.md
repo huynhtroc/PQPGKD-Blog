@@ -14,7 +14,7 @@ image: /assets/images/Post/Ky-uc-trong-mo/01.webp
 pubDate: 2025-01-20
 ---
 
->## [Tải Xuống](https://drive.google.com/file/d/10V-kfYWWs5n-3FI0j9hIjvZ0r3fhM7YZ/view) ⬇️
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/10V-kfYWWs5n-3FI0j9hIjvZ0r3fhM7YZ/view)
 ---
 ## 【Giới thiệu game】
 
@@ -59,4 +59,4 @@ Giữa ranh giới mong manh của thực tại và giấc mơ...
 
 Không có lưu ý nào cả!
 
-Cuối cùng chúc mọi người chơi game vui vẻ 0w0
+🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0

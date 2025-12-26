@@ -14,7 +14,7 @@ image: /assets/images/Post/Cuoc-chien-nho/01.webp
 pubDate: 2025-01-20
 ---
 
->## [Tải Xuống](https://drive.google.com/file/d/1BE1Wv-y4nOPgY6V8a8Zs2PZfce9vqBpn/view) ⬇️
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1BE1Wv-y4nOPgY6V8a8Zs2PZfce9vqBpn/view)
 ---
 ## 【Giới thiệu game】
 
@@ -40,4 +40,4 @@ pubDate: 2025-01-20
 
 Không có lưu ý nào cả!
 
-Cuối cùng chúc mọi người chơi game vui vẻ 0w0
+🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0

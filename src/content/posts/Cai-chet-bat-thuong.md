@@ -14,7 +14,7 @@ image: /assets/images/Post/Cai-chet-bat-thuong/01.webp
 pubDate: 2025-01-20
 ---
 
->## [Tải Xuống](https://drive.google.com/file/d/19kg0PmZ3kr8c5mWryVdwhIzmtb25clgg/view) ⬇️
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/19kg0PmZ3kr8c5mWryVdwhIzmtb25clgg/view)
 ---
 ## 【Giới thiệu game】
 
@@ -87,4 +87,4 @@ pubDate: 2025-01-20
     **máy cắt cỏ** hoặc **bình tưới nước**,  
     rồi **dọn sạch toàn bộ hoa**
 
-Cuối cùng chúc mọi người chơi game vui vẻ 0w0
+🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0
