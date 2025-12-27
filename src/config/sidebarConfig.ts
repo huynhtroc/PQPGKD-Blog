@@ -16,16 +16,6 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 	// 组件位置position：top=顶部，sticky=粘性定位(会跟随页面滚动)
 	leftComponents: [
 		{
-  			// ✅ Umami 统计组件
-  			type: "umami",
-  			enable: true,
- 			order: 5, // chỉnh thứ tự hiển thị
-  			position: "sticky", // hoặc "top"
-  			showOnPostPage: true,
-  			class: "onload-animation",
-  			animationDelay: 200,
-		},
-		{
 			// 组件类型：用户资料组件
 			type: "profile",
 			// 是否启用该组件
@@ -97,7 +87,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 6,
+			order: 5,
 			// 组件位置
 			position: "sticky",
 			// CSS 类名
@@ -128,12 +118,22 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			animationDelay: 200,
 		},
 		{
+  			// ✅ Umami 统计组件
+  			type: "umami",
+  			enable: true,
+ 			order: 2, // chỉnh thứ tự hiển thị
+  			position: "top", // hoặc "top"
+  			showOnPostPage: false,
+  			class: "onload-animation",
+  			animationDelay: 250,
+		},
+		{
 			// 组件类型：日历组件
 			type: "calendar",
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 2,
+			order: 3,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
@@ -149,7 +149,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 3,
+			order: 4,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
@@ -165,7 +165,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 4,
+			order: 5,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
