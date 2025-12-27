@@ -104,12 +104,12 @@ async function fetchUmamiStats() {
 }
 
         if (visitsElement && data.visits !== lastStats.visits) {
-            animateNumber(visitsElement, data.visits || 0, 4600);
+            animateNumber(visitsElement, data.visits || 0, 5600);
             lastStats.visits = data.visits;
 }
 
         if (visitorsElement && data.visitors !== lastStats.visitors) {
-            animateNumber(visitorsElement, data.visitors || 0, 4000);
+            animateNumber(visitorsElement, data.visitors || 0, 5800);
             lastStats.visitors = data.visitors;
 }
 
