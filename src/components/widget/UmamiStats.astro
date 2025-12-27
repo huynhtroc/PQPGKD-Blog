@@ -32,6 +32,12 @@ const UMAMI_CONFIG = {
     shareToken: "Bearer dktTWTMDzWXMnLOIqPPPquHMvu7akuC07H1RjIDwGVv5iZ45MWPRhPNxmUv2+ZR8CP3GJC8m1o2g21zrVSIQfTDsLqlYkvnbguJuy1Ova+f8C9j2ObC8zNCRBw++2kRAAzXeTt2s8XYV/BSLoNbkSQMBoVU5n6Z+etYQA8EbOdZZQyaiJegL1MpNnuTHw8x+6NPXK8zx8LbIH01KLjA4LUzl10U+nZzl+fpgMQWsjesjy9MYnf5CtDSrpmqfIFZ7Gnw+4Y6FNR6t7WMKnwr5QZCtTTfTtgGxnUncHlRgr7caLVKsRCsaJtQFV/lAEBDdxUKkaPtMQ1I2S2nPizGpbMoCVbUuYy8AkBSLGiR5rMAHUg+Yj9qFbLbSDmLx",
 };
 
+const lastStats = {
+    pageviews: 0,
+    visits: 0,
+    visitors: 0
+};
+
 function formatNumber(num: number): string {
     if (num >= 1000000) {
         return (num / 1000000).toFixed(1) + 'M';
@@ -39,6 +45,33 @@ function formatNumber(num: number): string {
         return (num / 1000).toFixed(1) + 'K';
     }
     return num.toString();
+}
+
+function animateNumber(element, target, duration = 1800) {
+    if (!element) return;
+
+    const start = 0;
+    const startTime = performance.now();
+
+    // Ease-out cubic: nhanh lúc đầu, chậm dần về cuối
+    function easeOutCubic(t) {
+        return 1 - Math.pow(1 - t, 3);
+    }
+
+    function update(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = easeOutCubic(progress);
+
+        const value = Math.floor(start + (target - start) * eased);
+        element.textContent = formatNumber(value);
+
+        if (progress < 1) {
+            requestAnimationFrame(update);
+        }
+    }
+
+    requestAnimationFrame(update);
 }
 
 async function fetchUmamiStats() {
@@ -65,17 +98,21 @@ async function fetchUmamiStats() {
         const visitsElement = document.getElementById('total-visits');
         const visitorsElement = document.getElementById('total-visitors');
 
-        if (pageviewsElement) {
-            pageviewsElement.textContent = formatNumber(data.pageviews || 0);
-        }
+        if (pageviewsElement && data.pageviews !== lastStats.pageviews) {
+            animateNumber(pageviewsElement, data.pageviews || 0, 5400);
+            lastStats.pageviews = data.pageviews;
+}
 
-        if (visitsElement) {
-            visitsElement.textContent = formatNumber(data.visits || 0);
-        }
+        if (visitsElement && data.visits !== lastStats.visits) {
+            animateNumber(visitsElement, data.visits || 0, 4600);
+            lastStats.visits = data.visits;
+}
 
-        if (visitorsElement) {
-            visitorsElement.textContent = formatNumber(data.visitors || 0);
-        }
+        if (visitorsElement && data.visitors !== lastStats.visitors) {
+            animateNumber(visitorsElement, data.visitors || 0, 4000);
+            lastStats.visitors = data.visitors;
+}
+
 
     } catch (error) {
         console.error('获取Umami统计数据失败:', error);
