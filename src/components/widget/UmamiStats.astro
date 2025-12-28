@@ -1,5 +1,6 @@
 ---
 import WidgetLayout from "./WidgetLayout.astro";
+import { Icon } from "astro-icon/components";
 
 interface Props {
   class?: string;
@@ -10,40 +11,46 @@ const { class: className, style } = Astro.props;
 
 <WidgetLayout name="Thống kê lượt truy cập" id="umami-stats" class:list={[className]} {style}>
     <div class="text-center py-2">
-        <div class="text-3xl font-bold text-neutral-900 dark:text-neutral-100" id="total-pageviews">-</div>
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">Tổng lượt xem</div>
+        <div class="text-3xl font-bold text-neutral-900 dark:text-neutral-100 flex items-center justify-center gap-2">
+            <Icon name="mdi:cursor-default-click" class="text-[1.4em] text-[var(--primary)]" />
+            <span id="total-pageviews">-</span>
+        </div>
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">Tổng lượt tương tác</div>
     </div>
+
     <div class="grid grid-cols-2 divide-x divide-neutral-200 dark:divide-neutral-700 text-center pt-2">
         <div class="px-2">
-            <div class="text-xl font-bold text-neutral-900 dark:text-neutral-100" id="total-visits">-</div>
+            <div class="text-xl font-bold text-neutral-900 dark:text-neutral-100 flex items-center justify-center gap-1.5">
+                <Icon name="mdi:chart-line" class="text-[1.2em] text-[var(--primary)]" />
+                <span id="total-visits">-</span>
+            </div>
             <div class="text-sm text-neutral-500 dark:text-neutral-400">Số lượt truy cập</div>
         </div>
         <div class="px-2">
-            <div class="text-xl font-bold text-neutral-900 dark:text-neutral-100" id="total-visitors">-</div>
+            <div class="text-xl font-bold text-neutral-900 dark:text-neutral-100 flex items-center justify-center gap-1.5">
+                <Icon name="mdi:account-eye" class="text-[1.2em] text-[var(--primary)]" />
+                <span id="total-visitors">-</span>
+            </div>
             <div class="text-sm text-neutral-500 dark:text-neutral-400">Số người xem</div>
         </div>
     </div>
-</WidgetLayout>
 
 <script>
-const UMAMI_CONFIG = {
-    baseUrl: "https://umami-blog-two.vercel.app/api",
-    websiteId: "49595173-f725-40bd-99e8-51808bd43592",
-    shareToken: "Bearer dktTWTMDzWXMnLOIqPPPquHMvu7akuC07H1RjIDwGVv5iZ45MWPRhPNxmUv2+ZR8CP3GJC8m1o2g21zrVSIQfTDsLqlYkvnbguJuy1Ova+f8C9j2ObC8zNCRBw++2kRAAzXeTt2s8XYV/BSLoNbkSQMBoVU5n6Z+etYQA8EbOdZZQyaiJegL1MpNnuTHw8x+6NPXK8zx8LbIH01KLjA4LUzl10U+nZzl+fpgMQWsjesjy9MYnf5CtDSrpmqfIFZ7Gnw+4Y6FNR6t7WMKnwr5QZCtTTfTtgGxnUncHlRgr7caLVKsRCsaJtQFV/lAEBDdxUKkaPtMQ1I2S2nPizGpbMoCVbUuYy8AkBSLGiR5rMAHUg+Yj9qFbLbSDmLx",
-};
-
 const lastStats = {
-    pageviews: 0,
-    visits: 0,
-    visitors: 0
+  pageviews: 0,
+  visits: 0,
+  visitors: 0
 };
 
-function formatNumber(num: number): string {
-    if (num >= 1000000) {
-        return (num / 1000000).toFixed(1) + 'M';
-    } else if (num >= 1000) {
-        return (num / 1000).toFixed(1) + 'K';
+function formatNumber(num) {
+    if (num >= 1_000_000) {
+        return (num / 1_000_000).toFixed(1) + "M";
     }
+
+    if (num >= 1_000) {
+        return (num / 1_000).toFixed(1) + "K";
+    }
+
     return num.toString();
 }
 
@@ -53,18 +60,19 @@ function animateNumber(element, target, duration = 1800) {
     const start = 0;
     const startTime = performance.now();
 
-    // Ease-out cubic: nhanh lúc đầu, chậm dần về cuối
     function easeOutCubic(t) {
         return 1 - Math.pow(1 - t, 3);
     }
 
     function update(currentTime) {
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        const eased = easeOutCubic(progress);
+        if (!document.body.contains(element)) return;
 
-        const value = Math.floor(start + (target - start) * eased);
-        element.textContent = formatNumber(value);
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = easeOutCubic(progress);
+
+    const value = Math.floor(start + (target - start) * eased);
+    element.textContent = formatNumber(value);
 
         if (progress < 1) {
             requestAnimationFrame(update);
@@ -74,62 +82,43 @@ function animateNumber(element, target, duration = 1800) {
     requestAnimationFrame(update);
 }
 
-async function fetchUmamiStats() {
+async function fetchStats() {
     try {
-        const endAt = Date.now();
-        const startAt = 0;
+    const res = await fetch("/api/umami-stats/");
+        if (!res.ok) throw new Error("Fetch failed");
 
-        const url = `${UMAMI_CONFIG.baseUrl}/websites/${UMAMI_CONFIG.websiteId}/stats?startAt=${startAt}&endAt=${endAt}&unit=hour&timezone=Asia%2FSaigon`;
+    const data = await res.json();
 
-        const response = await fetch(url, {
-            method: 'GET',
-            headers: {
-                'accept': 'application/json',
-                'Authorization': UMAMI_CONFIG.shareToken
-            }
-        });
+    const pv = document.getElementById("total-pageviews");
+    const v = document.getElementById("total-visits");
+    const uv = document.getElementById("total-visitors");
 
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+    if (pv && data.pageviews !== lastStats.pageviews) {
+        animateNumber(pv, data.pageviews || 0, 3200); 
+            lastStats.pageviews = data.pageviews;
         }
 
-        const data = await response.json();
-        const pageviewsElement = document.getElementById('total-pageviews');
-        const visitsElement = document.getElementById('total-visits');
-        const visitorsElement = document.getElementById('total-visitors');
-
-        if (pageviewsElement && data.pageviews !== lastStats.pageviews) {
-            animateNumber(pageviewsElement, data.pageviews || 0, 5400);
-            lastStats.pageviews = data.pageviews;
-}
-
-        if (visitsElement && data.visits !== lastStats.visits) {
-            animateNumber(visitsElement, data.visits || 0, 5600);
+    if (v && data.visits !== lastStats.visits) {
+        animateNumber(v, data.visits || 0, 3500); 
             lastStats.visits = data.visits;
-}
+        }
 
-        if (visitorsElement && data.visitors !== lastStats.visitors) {
-            animateNumber(visitorsElement, data.visitors || 0, 5800);
+    if (uv && data.visitors !== lastStats.visitors) {
+        animateNumber(uv, data.visitors || 0, 3900); 
             lastStats.visitors = data.visitors;
+        }
+    } catch (err) {
+    ["total-pageviews", "total-visits", "total-visitors"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.textContent = "-";
+        el.classList.add("text-red-500");
+      }
+    });
+  }
 }
 
-
-    } catch (error) {
-        console.error('获取Umami统计数据失败:', error);
-        const elements = ['total-pageviews', 'total-visits', 'total-visitors'];
-        elements.forEach(id => {
-            const element = document.getElementById(id);
-            if (element) {
-                element.textContent = 'Lấy dữ liệu thất bại';
-                element.classList.add('text-red-500');
-            }
-        });
-    }
-}
-
-document.addEventListener('DOMContentLoaded', fetchUmamiStats);
-
-if (window.swup) {
-    window.swup.hooks.on('page:view', fetchUmamiStats);
-}
+document.addEventListener("DOMContentLoaded", fetchStats);
 </script>
+
+
