@@ -6,7 +6,7 @@ export const announcementConfig: AnnouncementConfig = {
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "Tìm hiểu thêm", // 链接文本
+		text: "Tìm hiểu thêm nhé", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
 	},

@@ -8,8 +8,8 @@ import WidgetLayout from "./WidgetLayout.astro";
 const config = announcementConfig;
 
 interface Props {
-	class?: string;
-	style?: string;
+  class?: string;
+  style?: string;
 }
 const className = Astro.props.class;
 const style = Astro.props.style;
@@ -23,8 +23,11 @@ const style = Astro.props.style;
   style={style}
 >
   <div>
-    <!-- 公告栏内容 -->
-    <div class="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-3">
+    <!-- 公告栏内容（JS sẽ thay nội dung ở đây） -->
+    <div
+      id="announcement-content"
+      class="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-3"
+    >
       {config.content}
     </div>
 
@@ -61,29 +64,413 @@ const style = Astro.props.style;
 </WidgetLayout>
 
 <script>
+  /* ===== Helpers ===== */
+
+  const COUNTRY_MAP = {
+  AF: "Afghanistan",
+  AL: "Albania",
+  DZ: "Algeria",
+  AS: "American Samoa",
+  AD: "Andorra",
+  AO: "Angola",
+  AI: "Anguilla",
+  AQ: "Nam Cực",
+  AG: "Antigua và Barbuda",
+  AR: "Argentina",
+  AM: "Armenia",
+  AW: "Aruba",
+  AU: "Úc",
+  AT: "Áo",
+  AZ: "Azerbaijan",
+
+  BS: "Bahamas",
+  BH: "Bahrain",
+  BD: "Bangladesh",
+  BB: "Barbados",
+  BY: "Belarus",
+  BE: "Bỉ",
+  BZ: "Belize",
+  BJ: "Benin",
+  BM: "Bermuda",
+  BT: "Bhutan",
+  BO: "Bolivia",
+  BA: "Bosnia và Herzegovina",
+  BW: "Botswana",
+  BR: "Brazil",
+  BN: "Brunei",
+  BG: "Bulgaria",
+  BF: "Burkina Faso",
+  BI: "Burundi",
+
+  KH: "Campuchia",
+  CM: "Cameroon",
+  CA: "Canada",
+  CV: "Cape Verde",
+  KY: "Quần đảo Cayman",
+  CF: "Cộng hòa Trung Phi",
+  TD: "Chad",
+  CL: "Chile",
+  CN: "Trung Quốc",
+  CO: "Colombia",
+  KM: "Comoros",
+  CG: "Congo",
+  CD: "Congo (DC)",
+  CR: "Costa Rica",
+  CI: "Bờ Biển Ngà",
+  HR: "Croatia",
+  CU: "Cuba",
+  CY: "Síp",
+  CZ: "Séc",
+
+  DK: "Đan Mạch",
+  DJ: "Djibouti",
+  DM: "Dominica",
+  DO: "Cộng hòa Dominica",
+
+  EC: "Ecuador",
+  EG: "Ai Cập",
+  SV: "El Salvador",
+  GQ: "Guinea Xích Đạo",
+  ER: "Eritrea",
+  EE: "Estonia",
+  ET: "Ethiopia",
+
+  FI: "Phần Lan",
+  FJ: "Fiji",
+  FR: "Pháp",
+
+  GA: "Gabon",
+  GM: "Gambia",
+  GE: "Georgia",
+  DE: "Đức",
+  GH: "Ghana",
+  GR: "Hy Lạp",
+  GL: "Greenland",
+  GD: "Grenada",
+  GU: "Guam",
+  GT: "Guatemala",
+  GN: "Guinea",
+  GW: "Guinea-Bissau",
+  GY: "Guyana",
+
+  HT: "Haiti",
+  HN: "Honduras",
+  HK: "Hồng Kông",
+  HU: "Hungary",
+
+  IS: "Iceland",
+  IN: "Ấn Độ",
+  ID: "Indonesia",
+  IR: "Iran",
+  IQ: "Iraq",
+  IE: "Ireland",
+  IL: "Israel",
+  IT: "Ý",
+
+  JM: "Jamaica",
+  JP: "Nhật Bản",
+  JO: "Jordan",
+
+  KZ: "Kazakhstan",
+  KE: "Kenya",
+  KI: "Kiribati",
+  KP: "Triều Tiên",
+  KR: "Hàn Quốc",
+  KW: "Kuwait",
+  KG: "Kyrgyzstan",
+
+  LA: "Lào",
+  LV: "Latvia",
+  LB: "Liban",
+  LS: "Lesotho",
+  LR: "Liberia",
+  LY: "Libya",
+  LI: "Liechtenstein",
+  LT: "Litva",
+  LU: "Luxembourg",
+
+  MO: "Ma Cao",
+  MG: "Madagascar",
+  MW: "Malawi",
+  MY: "Malaysia",
+  MV: "Maldives",
+  ML: "Mali",
+  MT: "Malta",
+  MH: "Quần đảo Marshall",
+  MR: "Mauritania",
+  MU: "Mauritius",
+  MX: "Mexico",
+  FM: "Micronesia",
+  MD: "Moldova",
+  MC: "Monaco",
+  MN: "Mông Cổ",
+  ME: "Montenegro",
+  MA: "Ma Rốc",
+  MZ: "Mozambique",
+  MM: "Myanmar",
+
+  NA: "Namibia",
+  NP: "Nepal",
+  NL: "Hà Lan",
+  NZ: "New Zealand",
+  NI: "Nicaragua",
+  NE: "Niger",
+  NG: "Nigeria",
+  NO: "Na Uy",
+
+  OM: "Oman",
+
+  PK: "Pakistan",
+  PW: "Palau",
+  PA: "Panama",
+  PG: "Papua New Guinea",
+  PY: "Paraguay",
+  PE: "Peru",
+  PH: "Philippines",
+  PL: "Ba Lan",
+  PT: "Bồ Đào Nha",
+  PR: "Puerto Rico",
+
+  QA: "Qatar",
+
+  RO: "Romania",
+  RU: "Nga",
+  RW: "Rwanda",
+
+  SA: "Ả Rập Saudi",
+  SG: "Singapore",
+  SK: "Slovakia",
+  SI: "Slovenia",
+  ZA: "Nam Phi",
+  ES: "Tây Ban Nha",
+  LK: "Sri Lanka",
+  SD: "Sudan",
+  SE: "Thụy Điển",
+  CH: "Thụy Sĩ",
+  SY: "Syria",
+
+  TW: "Đài Loan",
+  TH: "Thái Lan",
+  TR: "Thổ Nhĩ Kỳ",
+  TN: "Tunisia",
+
+  UA: "Ukraina",
+  AE: "Các Tiểu vương quốc Ả Rập Thống nhất",
+  GB: "Vương quốc Anh",
+  US: "Hoa Kỳ",
+  UY: "Uruguay",
+  UZ: "Uzbekistan",
+
+  VN: "Việt Nam",
+  VE: "Venezuela",
+
+  YE: "Yemen",
+
+  ZM: "Zambia",
+  ZW: "Zimbabwe",
+};
+
+  function getCountryName(code) {
+    return COUNTRY_MAP[code] || code || "";
+  }
+
+  /* ===== Vietnam city normalization (63 tỉnh / thành) ===== */
+
+  const VIETNAM_CITY_MAP = {
+    // Thành phố trực thuộc TW
+    "hanoi": "Hà Nội",
+    "ha noi": "Hà Nội",
+
+    "ho chi minh city": "TP. Hồ Chí Minh",
+    "hochiminh city": "TP. Hồ Chí Minh",
+    "ho chi minh": "TP. Hồ Chí Minh",
+    "saigon": "TP. Hồ Chí Minh",
+    "sai gon": "TP. Hồ Chí Minh",
+
+    "hai phong": "Hải Phòng",
+    "da nang": "Đà Nẵng",
+    "can tho": "Cần Thơ",
+    "hue": "Thừa Thiên Huế",
+
+    // Miền Bắc
+    "ha giang": "Hà Giang",
+    "cao bang": "Cao Bằng",
+    "bac kan": "Bắc Kạn",
+    "tuyen quang": "Tuyên Quang",
+    "lao cai": "Lào Cai",
+    "dien bien": "Điện Biên",
+    "lai chau": "Lai Châu",
+    "son la": "Sơn La",
+    "yen bai": "Yên Bái",
+    "thai nguyen": "Thái Nguyên",
+    "lang son": "Lạng Sơn",
+    "quang ninh": "Quảng Ninh",
+    "bac giang": "Bắc Giang",
+    "phu tho": "Phú Thọ",
+    "vinh phuc": "Vĩnh Phúc",
+    "bac ninh": "Bắc Ninh",
+    "hai duong": "Hải Dương",
+    "hung yen": "Hưng Yên",
+    "ha nam": "Hà Nam",
+    "nam dinh": "Nam Định",
+    "ninh binh": "Ninh Bình",
+    "hoa binh": "Hòa Bình",
+
+    // Bắc Trung Bộ & Duyên hải Trung Bộ
+    "thanh hoa": "Thanh Hóa",
+    "nghe an": "Nghệ An",
+    "ha tinh": "Hà Tĩnh",
+    "quang binh": "Quảng Bình",
+    "quang tri": "Quảng Trị",
+    "quang nam": "Quảng Nam",
+    "quang ngai": "Quảng Ngãi",
+    "binh dinh": "Bình Định",
+    "phu yen": "Phú Yên",
+    "khanh hoa": "Khánh Hòa",
+    "ninh thuan": "Ninh Thuận",
+    "binh thuan": "Bình Thuận",
+
+    // Tây Nguyên
+    "kon tum": "Kon Tum",
+    "gia lai": "Gia Lai",
+    "dak lak": "Đắk Lắk",
+    "dak nong": "Đắk Nông",
+    "lam dong": "Lâm Đồng",
+
+    // Đông Nam Bộ
+    "binh phuoc": "Bình Phước",
+    "tay ninh": "Tây Ninh",
+    "binh duong": "Bình Dương",
+    "dong nai": "Đồng Nai",
+    "ba ria vung tau": "Bà Rịa – Vũng Tàu",
+
+    // Đồng bằng sông Cửu Long
+    "long an": "Long An",
+    "tien giang": "Tiền Giang",
+    "ben tre": "Bến Tre",
+    "tra vinh": "Trà Vinh",
+    "vinh long": "Vĩnh Long",
+    "dong thap": "Đồng Tháp",
+    "an giang": "An Giang",
+    "kien giang": "Kiên Giang",
+    "hau giang": "Hậu Giang",
+    "soc trang": "Sóc Trăng",
+    "bac lieu": "Bạc Liêu",
+    "ca mau": "Cà Mau",
+  };
+
+  function normalizeVietnamCity(city) {
+    if (!city) return "";
+
+    const key = city
+      .toLowerCase()
+      .replace(/[\.,]/g, "")
+      .trim();
+
+    return VIETNAM_CITY_MAP[key] || city;
+  }
+
+  function getGreetingLocal() {
+    const h = new Date().getHours();
+    if (h >= 5 && h < 11) return "Chào buổi sáng ☀️";
+    if (h >= 11 && h < 18) return "Chúc bạn buổi chiều vui vẻ 🌤️";
+    if (h >= 18 && h < 22) return "Chào buổi tối 🌙";
+    return "Chúc bạn ngủ ngon 😴";
+  }
+
+  function getGreetingByTimezone(timezone) {
+    try {
+      const hour = new Date().toLocaleString("en-US", {
+        timeZone: timezone,
+        hour: "numeric",
+        hour12: false,
+      });
+
+      const h = Number(hour);
+
+      if (h >= 5 && h < 11) return "Chào buổi sáng ☀️";
+      if (h >= 11 && h < 18) return "Chúc bạn buổi chiều vui vẻ 🌤️";
+      if (h >= 18 && h < 22) return "Chào buổi tối 🌙";
+      return "Chúc bạn ngủ ngon 😴";
+    } catch {
+      return getGreetingLocal();
+    }
+  }
+
+  /* ===== Announcement content ===== */
+
+  async function updateAnnouncement() {
+    const el = document.getElementById(
+      "announcement-content"
+    ) as HTMLElement | null;
+    if (!el) return;
+
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 3000);
+
+      const res = await fetch("https://ipinfo.io/json", {
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeout);
+      if (!res.ok) throw new Error("ipinfo failed");
+
+      const data = await res.json();
+
+      const greeting = data.timezone
+        ? getGreetingByTimezone(data.timezone)
+        : getGreetingLocal();
+
+      const city =
+        data.country === "VN"
+          ? normalizeVietnamCity(data.city)
+          : data.city || "";
+
+      const country = getCountryName(data.country);
+
+      el.innerHTML = `
+        <div>${greeting}</div>
+        ${
+          city && country
+            ? `<div class="mt-1">
+                Mừng bạn đến từ <b>${city}</b>, <b>${country}</b> đã ở đây 💖
+              </div>`
+            : ""
+        }
+      `;
+    } catch {
+      el.innerHTML = `<div>${getGreetingLocal()}</div>`;
+    }
+  }
+
+  /* ===== Close logic ===== */
+
   function closeAnnouncement() {
-    // 通过data-id属性找到整个widget-layout元素
     const widgetLayout = document.querySelector(
       'widget-layout[data-id="announcement"]'
     ) as HTMLElement | null;
+
     if (widgetLayout) {
-      // 隐藏整个widget-layout元素
       widgetLayout.style.display = "none";
-      // 保存关闭状态到localStorage
       localStorage.setItem("announcementClosed", "true");
     }
   }
 
-  // 页面加载时检查是否已关闭
-  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", () => {
     const widgetLayout = document.querySelector(
       'widget-layout[data-id="announcement"]'
     ) as HTMLElement | null;
+
     if (widgetLayout && localStorage.getItem("announcementClosed") === "true") {
       widgetLayout.style.display = "none";
+      return;
     }
+
+    updateAnnouncement();
   });
 
-  // 使公告栏函数全局可用
   window.closeAnnouncement = closeAnnouncement;
 </script>
+
+
