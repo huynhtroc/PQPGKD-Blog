@@ -11,6 +11,7 @@ import Tags from "@/components/widget/Tags.astro";
 import type { WidgetComponentConfig } from "@/types/config";
 import { widgetManager } from "@/utils/widget-manager";
 import UmamiStats from "@/components/widget/UmamiStats.astro";
+import Feedcat from "@/components/widget/FeedCat.astro";
 
 interface Props {
 	class?: string;
@@ -37,6 +38,7 @@ const componentTypeToId = {
 	tags: "tags",
 	advertisement: "advertisement",
   umami: "umami-stats",
+  feedcat: "feedcat",
 };
 
 // 提取客户端需要的数据 - 包含组件的 showOnPostPage 配置
@@ -59,6 +61,7 @@ const componentMap = {
 	stats: SiteStats,
 	calendar: Calendar,
   umami: UmamiStats,
+  feedcat: Feedcat,
 };
 
 // 渲染组件的辅助函数

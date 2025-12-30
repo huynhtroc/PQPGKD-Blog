@@ -1,0 +1,50 @@
+<style>
+  #canvas {
+    width: 100%;
+    max-width: 450px;
+    aspect-ratio: 1 / 1;
+    display: block;
+  }
+</style>
+
+<canvas id="canvas"></canvas>
+
+<script is:inline src="/rive/rive.js"></script>
+<script is:inline>
+  function initRive() {
+    const canvas = document.getElementById("canvas");
+    if (!canvas) return;
+
+    if (canvas.__rive) {
+      try {
+        canvas.__rive.resizeDrawingSurfaceToCanvas();
+      } catch {}
+      return;
+    }
+
+    const r = new rive.Rive({
+      src: "/rive/22570-42227-feed-moncu.riv",
+      canvas,
+      autoplay: true,
+      stateMachines: "State Machine 1",
+      onLoad: () => {
+        resize();
+      },
+    });
+
+    function resize() {
+      try {
+        r.resizeDrawingSurfaceToCanvas();
+      } catch {}
+    }
+
+    window.addEventListener("resize", resize);
+
+    canvas.__rive = r;
+    window.r = r; // debug
+  }
+
+  document.addEventListener("DOMContentLoaded", initRive);
+
+  document.addEventListener("astro:page-load", initRive);
+</script>
