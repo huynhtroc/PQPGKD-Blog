@@ -1,18 +1,22 @@
-<style>
-  #canvas {
-    width: 100%;
-    max-width: 450px;
-    aspect-ratio: 1 / 1;
-    display: block;
-  }
-</style>
+---
+import WidgetLayout from "./WidgetLayout2.astro";
+---
 
-<canvas id="canvas"></canvas>
+<WidgetLayout>
+  <div class="relative w-full h-[280px] overflow-hidden rounded-2xl">
+    <canvas
+      id="feedcat-canvas"
+      class="absolute inset-0 w-full h-full block"
+    ></canvas>
+  </div>
+</WidgetLayout>
+
 
 <script is:inline src="/rive/rive.js"></script>
+
 <script is:inline>
-  function initRive() {
-    const canvas = document.getElementById("canvas");
+  function initFeedCatRive() {
+    const canvas = document.getElementById("feedcat-canvas");
     if (!canvas) return;
 
     if (canvas.__rive) {
@@ -22,29 +26,29 @@
       return;
     }
 
-    const r = new rive.Rive({
+    const riveInstance = new rive.Rive({
       src: "/rive/22570-42227-feed-moncu.riv",
       canvas,
       autoplay: true,
       stateMachines: "State Machine 1",
-      onLoad: () => {
-        resize();
-      },
+      layout: new rive.Layout({
+        fit: rive.Fit.Cover,
+        alignment: rive.Alignment.Center,
+      }),
+      onLoad: resize,
     });
 
     function resize() {
       try {
-        r.resizeDrawingSurfaceToCanvas();
+        riveInstance.resizeDrawingSurfaceToCanvas();
       } catch {}
     }
 
     window.addEventListener("resize", resize);
 
-    canvas.__rive = r;
-    window.r = r; // debug
+    canvas.__rive = riveInstance;
   }
 
-  document.addEventListener("DOMContentLoaded", initRive);
-
-  document.addEventListener("astro:page-load", initRive);
+  document.addEventListener("DOMContentLoaded", initFeedCatRive);
+  document.addEventListener("astro:page-load", initFeedCatRive);
 </script>
