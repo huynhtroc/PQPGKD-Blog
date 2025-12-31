@@ -7,7 +7,7 @@ export const commentConfig: CommentConfig = {
 	//twikoo评论系统配置
 	twikoo: {
 		envId: "https://pqpgkd-blog.netlify.app/.netlify/functions/twikoo",
-		lang: "en", // 设置 Twikoo 评论系统语言
+		lang: "vi", // 设置 Twikoo 评论系统语言
 		visitorCount: true, // 文章访问量统计功能。
 	},
 
