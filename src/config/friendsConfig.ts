@@ -24,11 +24,20 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "Truong Ducsang",
+		imgurl: "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/550525433_2940239809494271_9184121305605365879_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ugRwo3C09-MQ7kNvwHqgvOw&_nc_oc=AdlyoXVC6qXzmU35EWyGCsb2G7MUqbpXNOwfAnBKdBsstkIzQ9ZG6L08HBjVmcn5veu6-lW6U1Rot3CLWAcCI487&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=7nOTwenc_ipM2m__0x-BRQ&oh=00_AfkMLXwCTOME1DdksZF0VPG1kOp0cCUsWtVnTTnyqn9UMQ&oe=695A9A39",
+		desc: "Bạn thân",
+		siteurl: "http://facefacebook.com/Schnavia?locale=vi_VN",
+		tags: ["Facebook"],
+		weight: 8, 
+		enabled: true, 
+	},
+	{
+		title: "Truong Ducsang",
 		imgurl: "https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-1/571995045_122094600693095075_3490430590089236045_n.jpg?stp=cp6_dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=e99d92&_nc_ohc=7uZlIJ4SKwkQ7kNvwEwmngW&_nc_oc=AdnfN7sq1uFPKzQK7klgbdY_2ioFSMtGph27Dt__6Ae0TKLuRYbWOkeCT3DcjYu7lIH0J8Hu43WpNvbvB5pphIa0&_nc_zt=24&_nc_ht=scontent.fhan2-5.fna&_nc_gid=kJuP4GfX6dwlvPuh_JjSNg&oh=00_AfkrYILpVB3VmhX1-tPC0azvSZ754y90qiBEFFCtbfZSeg&oe=695852FC",
 		desc: "Bạn thân",
 		siteurl: "https://www.facebook.com/profile.php?id=61582852254494",
 		tags: ["Facebook"],
-		weight: 8, 
+		weight: 4, 
 		enabled: true, 
 	},
 	{
