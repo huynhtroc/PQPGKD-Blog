@@ -23,7 +23,7 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true, // 是否启用
 	},
 	{
-		title: "Truong Ducsang",
+		title: "Schnavia Glücklichkeit",
 		imgurl: "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/550525433_2940239809494271_9184121305605365879_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ugRwo3C09-MQ7kNvwHqgvOw&_nc_oc=AdlyoXVC6qXzmU35EWyGCsb2G7MUqbpXNOwfAnBKdBsstkIzQ9ZG6L08HBjVmcn5veu6-lW6U1Rot3CLWAcCI487&_nc_zt=23&_nc_ht=scontent.fhan14-1.fna&_nc_gid=7nOTwenc_ipM2m__0x-BRQ&oh=00_AfkMLXwCTOME1DdksZF0VPG1kOp0cCUsWtVnTTnyqn9UMQ&oe=695A9A39",
 		desc: "Bạn thân",
 		siteurl: "http://facefacebook.com/Schnavia?locale=vi_VN",
