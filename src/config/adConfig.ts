@@ -24,18 +24,18 @@ export const adConfig1: AdConfig = {
 
 // 广告配置2 - 完整内容广告
 export const adConfig2: AdConfig = {
-	title: "Game sắp dịch xong",
+	title: "Game dịch mới nhất",
 	content:
-		"Đây là banner quảng cáo cho game sắp xong, tìm hiểu thêm nhé!",
+		"Đây là quảng cáo cho game dịch xong mới nhất, tìm hiểu thêm nhé!",
 	image: {
 		src: "/assets/images/d2.webp",
 		alt: "Banner quảng cáo",
-		link: "/about/",
+		link: "/posts/bai-ca-hy-vong/",
 		external: false,
 	},
 	link: {
 		text: "tìm hiểu thêm",
-		url: "/about/",
+		url: "/posts/bai-ca-hy-vong/",
 		external: false,
 	},
 	closable: true,

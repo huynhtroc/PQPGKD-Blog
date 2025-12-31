@@ -3,7 +3,7 @@ title: Bài Ca Hy Vọng
 published: 2016-11-03
 pinned: true
 description: Tiểu Khiết thức dậy và phát hiện mình đang ở trong một căn phòng xa lạ. Số phận của cô bé rồi sẽ ra sao?
-tags: [16+, Dưới 2h, Kinh dị, Giải đố, Hành động, Phiêu lưu, ]
+tags: [16+, Dưới 2h,VX Ace, Kinh dị, Giải đố, Hành động, Phiêu lưu, ]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: 悠月
@@ -12,7 +12,7 @@ draft: false
 date: 2025-01-20
 image: https://rpg.blue/data/attachment/forum/201611/03/135610a7dmzw7ekk1sqms1.png
 pubDate: 2025-01-20
-update: 2025-12-31
+updated: 2025-12-31
 ---
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/1L9u5Si4f1hsrKixX1ZwRtDu572R2A19b/view?usp=drive_link) 
