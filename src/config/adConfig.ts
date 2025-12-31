@@ -34,7 +34,7 @@ export const adConfig2: AdConfig = {
 		external: false,
 	},
 	link: {
-		text: "tìm hiểu thêm",
+		text: "Game Bài Ca Hy Vọng",
 		url: "/posts/bai-ca-hy-vong/",
 		external: false,
 	},

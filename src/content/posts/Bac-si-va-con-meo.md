@@ -3,7 +3,7 @@ title: Bác Sĩ Và Con Mèo
 published: 2014-04-25
 pinned: false
 description: Một chú mèo con vô gia cư được một bác sĩ vô gia cư nghèo khó cứu sống trong mùa đông lạnh giá. Cả hai sống một cuộc sống giản dị bên nhau cho đến khi...
-tags: [14+, Dưới 2h,Tình yêu, Tình bạn, Phiêu lưu, Âm nhạc, ]
+tags: [14+, Dưới 2h,VX Ace,Tình yêu, Tình bạn, Phiêu lưu, Âm nhạc, ]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: Cô Bé Lọ Lem

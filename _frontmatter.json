@@ -36,12 +36,6 @@
           "isPublishDate": true
         },
         {
-          "title": "pubDate",
-          "name": "pubDate",
-          "type": "datetime",
-          "isPublishDate": true
-        },
-        {
           "title": "preview",
           "name": "image",
           "type": "image",
