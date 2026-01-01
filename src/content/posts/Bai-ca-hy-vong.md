@@ -17,26 +17,6 @@ updated: 2025-12-31
 
 >## [Tải Xuống ⬇️](https://pub-a65f1b60c56f4ebca92f482e387bfa04.r2.dev/Bai%20Ca%20Hy%20Vong.rar) 
 ---
-## 🌟【Lời nói đầu】
-
-Đây là lần thứ ba tôi tham gia.  
-
-Tác phẩm lần này **thuần túy mang tính giải trí**, vì vậy xin đừng đặt quá nhiều kỳ vọng vào cốt truyện.
-
-Ý tưởng này đã nảy ra ngay từ lúc bắt đầu.  
-
-Trong những ngày cuối của sự kiện, mình dùng **1 ngày để nghĩ cốt truyện**, và **2 ngày để lấp các “hố” nội dung**.
-
-Với tâm thế thử sức, mình đã vội vàng chạy nước rút cho kịp deadline.  
-
-Sau khi biết thời hạn được gia hạn, mình lại **vẽ thêm vài bức nữa**.
-
-Nói chung thì… lần này mạch suy nghĩ có hơi hỗn loạn 😆
-
-> Hiện tại vẫn sẽ **tiếp tục chỉnh sửa và cải thiện**,  
-
-> đồng thời **điên cuồng bổ sung thêm CG**.
-
 ## 📖【Giới thiệu game】
 
 - Cuộc chiến đương đầu với ác quỷ.

@@ -38,7 +38,7 @@ Isoke rất thích kẹo trái cây. Một ngày nọ, chị gái đi vắng, Is
 | `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
 | `Tăng tốc`              | Shift                                                                                                                                  |
 
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 :::tip
 Không có lưu ý nào cả!
 :::
