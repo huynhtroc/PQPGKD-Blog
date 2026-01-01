@@ -1,34 +1,33 @@
 ---
-title: Tủ quần áo
-published: 2014-05-01
+title: Nghề Y Tá
+published: 2021-07-05
 pinned: false
-description: Bạn cùng phòng mới của Lyly, là một người phụ nữ bí ẩn tên July. Trong lúc July vắng nhà, Lyly vô tình phát hiện ra bí mật của cô ấy...
-tags: [16+,Dưới 2h,MV,Kinh dị, Giải đố, Gia đình, Tâm lý, ]
+description: Nghề Y Tá luôn phải đối mặt với những bệnh nhân kì lạ và những câu chuyện tâm linh. Liệu nhân vật chính trong câu chuyện có đủ nghị lực để vượt qua áp lực này không?
+tags: [16+,Dưới 2h,MV,Tâm lý, Kinh dị, Hành động, Giải đố, ]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
-author: Floraelm
-sourceLink: "https://forum.gamer.com.tw/C.php?bsn=04918&snA=24424&tnum=31&subbsn=3"
+author: NoriTuzu
+sourceLink: "https://rarodado.com/2021/07/05/kanbyo/"
 draft: false
 date: 2025-01-20
-image: /assets/images/Post/Tu-quan-ao/01.webp
+image: /assets/images/Post/Nghe-y-ta/01.webp
 pubDate: 2025-01-20
 updated: 2025-12-31
 ---
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/T98OmjSkqBQ" title="【NGHỀ Y TÁ (看護) + TÔI LÀ… - Việt hóa】SỔ TAY ĐIỀU DƯỠNG || #FULL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
->## [Tải Xuống ⬇️](https://drive.google.com/file/d/1mGdJGFIuBcdGeLKYmthSj_mq1mjtq42C/view) 
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1zJo_hAoBXSZ6BqjHvNRf7CsXSWYb1ys1/view) 
 ---
 ## 📖【Giới thiệu game】
 
-- Bạn cùng phòng mới của Lyly, là một người phụ nữ bí ẩn tên July. Trong lúc July vắng nhà, Lyly vô tình phát hiện ra bí mật của cô ấy...
+Nghề Y Tá luôn phải đối mặt với những bệnh nhân kì lạ và những câu chuyện tâm linh. Liệu nhân vật chính trong câu chuyện có đủ nghị lực để vượt qua áp lực này không?
 :::note
-- Game có nội dung tầm 30p chơi với 2 Ending
+- Game có nội dung tầm 30p chơi với 5 Ending
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Tu-quan-ao/02.webp)
-![**Ảnh game**](./images/Post/Tu-quan-ao/03.webp)
-![**Ảnh game**](https://truth.bahamut.com.tw/s01/201405/6672fb209c568e6474cb24726cc3088c.PNG)
-![**Ảnh game**](https://truth.bahamut.com.tw/s01/201405/6d7c73def989dfae2c56b0b44d271b4e.PNG)
+![**Ảnh game**](./images/Post/Nghe-y-ta/02.webp)
+![**Ảnh game**](./images/Post/Nghe-y-ta/03.webp)
 
 ## 🎮【Cách điều khiển】
 

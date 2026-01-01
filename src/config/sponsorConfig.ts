@@ -6,9 +6,9 @@ export const sponsorConfig: SponsorConfig = {
 	usage:
 		"Văn mẫu: Sự ủng hộ của bạn sẽ được dùng cho việc duy trì máy chủ, sáng tạo nội dung và phát triển tính năng, giúp tôi có thể tiếp tục cung cấp những nội dung chất lượng.", // 赞助用途说明
 	// 是否显示赞助者列表
-	showSponsorsList: true,
+	showSponsorsList: false,
 	// 是否在文章详情页底部显示赞助按钮
-	showButtonInPost: true,
+	showButtonInPost: false,
 
 	// 赞助方式列表
 	methods: [
