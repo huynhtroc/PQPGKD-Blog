@@ -5,7 +5,7 @@ export const fontConfig = {
 	// 是否预加载字体文件
 	preload: true,
 	// 当前选择的字体，支持多个字体组合
-	selected: ["system"],
+	selected: ["comic-sans"],
 
 	// 字体列表
 	fonts: {
@@ -17,7 +17,14 @@ export const fontConfig = {
 			family:
 				"system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif",
 		},
-
+		"comic-sans": {
+			id: "comic-sans",
+			name: "Comic Sans MS",
+			src: "/fonts/comic-sans/comic-sans.css",
+			family: "Comic Sans MS",
+			weight: 400,
+			display: "swap" as const,
+		},
 		// Google Fonts - Zen Maru Gothic
 		"zen-maru-gothic": {
 			id: "zen-maru-gothic",

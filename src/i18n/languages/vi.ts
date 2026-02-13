@@ -52,10 +52,10 @@ export const vi: Translation = {
 		"Bạn chưa bật hệ thống bình luận trong tệp cấu hình. Sau khi bật, khách truy cập có thể để lại lời nhắn ở đây",
 	[Key.friends]: "Bạn bè",
 	[Key.friendsDescription]:
-		"Đây là những người bạn của mình, mời bạn ghé thăm và giao lưu",
+		"Đây là những người bạn của mình, hoan nghênh ghé thăm và giao lưu với nhau nhé",
 	[Key.guestbook]: "Sổ lưu bút",
 	[Key.guestbookDescription]:
-		"Hãy để lại dấu ấn của bạn ở đây, chia sẻ suy nghĩ và gợi ý",
+		"Chào mừng bạn để lại dấu ấn tại đây, chia sẻ suy nghĩ và góp ý 💖",
 	[Key.untitled]: "Không tiêu đề",
 	[Key.uncategorized]: "Chưa phân loại",
 	[Key.noTags]: "Không có thẻ",
@@ -183,7 +183,7 @@ export const vi: Translation = {
 	[Key.lastModifiedPrefix]: "Cập nhật lần cuối vào ",
 	[Key.lastModifiedOutdated]: "Một số nội dung có thể đã lỗi thời",
 	[Key.lastModifiedDaysAgo]: "{days} ngày",
-	[Key.year]: "năm",
+	[Key.year]: " năm",
 	[Key.month]: "tháng",
 	[Key.day]: "ngày",
 	[Key.hour]: "giờ",
@@ -192,7 +192,7 @@ export const vi: Translation = {
 
 	// Page Views Statistics
 	[Key.pageViews]: "Lượt xem",
-	[Key.pageViewsLoading]: "Đang tải...",
+	[Key.pageViewsLoading]: "đang tải...",
 	[Key.pageViewsError]: "Không thể hiển thị thống kê",
 
 	// Pinned
@@ -201,7 +201,7 @@ export const vi: Translation = {
 	// Wallpaper Mode
 	[Key.wallpaperMode]: "Chế độ hình nền",
 	[Key.wallpaperBannerMode]: "Hình nền banner",
-	[Key.wallpaperOverlayMode]: "Hình nền phủ",
+	[Key.wallpaperOverlayMode]: "Hình nền trong suốt",
 	[Key.wallpaperNoneMode]: "Không dùng hình nền",
 
 	// Post List Layout

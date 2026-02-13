@@ -86,7 +86,7 @@ export const spineModelConfig: SpineModelConfig = {
 // Live2D 看板娘配置
 export const live2dModelConfig: Live2DModelConfig = {
 	// Live2D 看板娘开关
-	enable: false,
+	enable: true,
 	// Live2D模型配置
 	model: {
 		// Live2D模型文件路径
@@ -107,9 +107,9 @@ export const live2dModelConfig: Live2DModelConfig = {
 	// 尺寸配置
 	size: {
 		// 容器宽度
-		width: 135,
+		width: 255,
 		// 容器高度
-		height: 165,
+		height: 285,
 	},
 
 	// 交互配置
@@ -118,11 +118,12 @@ export const live2dModelConfig: Live2DModelConfig = {
 		enabled: true,
 		// 点击时随机显示的文字消息，motions 和 expressions 将从模型 JSON 文件中自动读取
 		clickMessages: [
-			"你好！我是Miku~",
-			"有什么需要帮助的吗？",
-			"今天天气真不错呢！",
-			"要不要一起玩游戏？",
-			"记得按时休息哦！",
+			"Xin chào! Mình là Miku~",
+			"Có gì mình có thể giúp không?",
+			"Hôm nay thời tiết đẹp thật nhỉ!",
+			"Có muốn chơi game cùng không?",
+			"Nhớ nghỉ ngơi đúng giờ nhé!",
+
 		],
 		// 随机显示的文字消息显示时间（毫秒）
 		messageDisplayTime: 3000,

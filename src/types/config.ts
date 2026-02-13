@@ -338,7 +338,10 @@ export type WidgetComponentType =
 	| "advertisement"
 	| "stats"
 	| "calendar"
-	| "music";
+	| "music"
+	| "feedcat"
+	| "umamiStats"
+	| "umami";
 
 export type WidgetComponentConfig = {
 	type: WidgetComponentType; // 组件类型
