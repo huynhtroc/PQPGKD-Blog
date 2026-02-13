@@ -37,43 +37,15 @@ const { class: className, style } = Astro.props;
 </WidgetLayout>
 
 <script>
-    const lastStats = {
-    pageviews: 0,
-    visits: 0,
-    visitors: 0
-    };
-
     function formatNumber(num) {
     if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + "M";
     if (num >= 1_000) return (num / 1_000).toFixed(1) + "K";
     return num.toString();
     }
 
-    function animateNumber(element, target, duration = 2000) {
-        if (!element) return;
-
-        const startTime = performance.now();
-
-        function easeOutCubic(t) {
-            return 1 - Math.pow(1 - t, 3);
-        }
-
-        function update(now) {
-            if (!document.body.contains(element)) return;
-
-            const progress = Math.min((now - startTime) / duration, 1);
-            const value = Math.floor(target * easeOutCubic(progress));
-            element.textContent = formatNumber(value);
-
-            if (progress < 1) requestAnimationFrame(update);
-        }
-
-            requestAnimationFrame(update);
-        }
-
     async function fetchStats() {
         try {
-            const res = await fetch("/api/umami-stats");
+            const res = await fetch("/api/umami-stats", { cache: "no-store" });
             if (!res.ok) throw new Error("Fetch failed");
 
             const data = await res.json();
@@ -82,20 +54,9 @@ const { class: className, style } = Astro.props;
             const v = document.getElementById("total-visits");
             const uv = document.getElementById("total-visitors");
 
-            if (pv && data.pageviews !== lastStats.pageviews) {
-                    animateNumber(pv, data.pageviews, 2800);
-                lastStats.pageviews = data.pageviews;
-            }
-
-            if (v && data.visits !== lastStats.visits) {
-                    animateNumber(v, data.visits, 3300);
-                lastStats.visits = data.visits;
-            }
-
-            if (uv && data.visitors !== lastStats.visitors) {
-                    animateNumber(uv, data.visitors, 3800);
-                lastStats.visitors = data.visitors;
-            }
+            if (pv) pv.textContent = formatNumber(data.pageviews ?? 0);
+            if (v) v.textContent = formatNumber(data.visits ?? 0);
+            if (uv) uv.textContent = formatNumber(data.visitors ?? 0);
         } catch (err) {
         ["total-pageviews", "total-visits", "total-visitors"].forEach(id => {
             const el = document.getElementById(id);

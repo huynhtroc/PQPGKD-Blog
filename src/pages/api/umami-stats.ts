@@ -1,3 +1,5 @@
+export const prerender = false;
+
 export async function GET() {
   try {
     const baseUrl = import.meta.env.UMAMI_BASE_URL;
@@ -33,7 +35,7 @@ export async function GET() {
     }), {
       headers: {
         "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=3600",
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
       },
     });
   } catch (err) {
