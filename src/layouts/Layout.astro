@@ -95,6 +95,9 @@ const bannerOffset = `${BANNER_HEIGHT_EXTEND / 2}vh`;
 <!doctype html>
 <html lang={siteLang} class="bg-(--page-bg) text-[14px] md:text-[16px]">
   <head>
+
+    <meta name="google-site-verification" content="google770a18a59a2c4bb7" />
+
     <meta charset="UTF-8" />
     {siteConfig.analytics?.googleAnalyticsId && (
             <GoogleAnalytics analyticsId={siteConfig.analytics.googleAnalyticsId} />
@@ -408,6 +411,49 @@ const bannerOffset = `${BANNER_HEIGHT_EXTEND / 2}vh`;
       title={profileConfig.name}
       href={`${Astro.site}rss.xml`}
     />
+
+    <script
+      async
+      defer
+      src="https://umami-blog-two.vercel.app/script.js"
+      data-website-id="49595173-f725-40bd-99e8-51808bd43592"
+      data-auto-track="false">
+    </script>
+
+     <script>
+      function waitForUmami(cb) {
+        if (window.umami) {
+          cb();
+            return;
+          }
+
+        const interval = setInterval(() => {
+          if (window.umami) {
+            clearInterval(interval);
+            cb();
+          }
+        }, 50);
+      }
+
+      function trackPageview() {
+        waitForUmami(() => {
+          (window.umami as any).track((props: any) => ({
+            ...props,
+            url: window.location.pathname,
+            title: document.title,
+        }));
+
+      console.log("[Umami] pageview:", window.location.pathname);
+      });}
+
+       // Lần đầu load
+      window.addEventListener("load", trackPageview);
+
+       // Swup navigation
+      document.addEventListener("swup:enable", () => {
+       window.swup.hooks.on("page:view", trackPageview);
+      });
+    </script>
 
     <!-- Font Manager -->
     <FontManager />
