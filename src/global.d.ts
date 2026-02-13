@@ -8,6 +8,8 @@ declare global {
 	interface Window {
 		// biome-ignore lint/suspicious/noExplicitAny: External library
 		swup: any;
+		// biome-ignore lint/suspicious/noExplicitAny: External analytics script
+		umami?: any;
 		live2dModelInitialized?: boolean;
 		spineModelInitialized?: boolean;
 		floatingTOCListenersInitialized?: boolean;
