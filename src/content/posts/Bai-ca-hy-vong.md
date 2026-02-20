@@ -10,7 +10,7 @@ author: 悠月
 sourceLink: "https://rpg.blue/thread-397158-1-8.html"
 draft: false
 date: 2025-01-20
-image: api
+image: /assets/images/Post/Bai-ca-hy-vong/01.webp
 pubDate: 2025-01-20
 updated: 2025-12-31
 ---

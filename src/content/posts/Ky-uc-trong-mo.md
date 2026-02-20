@@ -16,7 +16,7 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/10V-kfYWWs5n-3FI0j9hIjvZ0r3fhM7YZ/view)
 ---
-## 【Giới thiệu game】
+## 📖【Giới thiệu game】
 
 Khi trăng đêm rơi lệ,<br>
 Hương vàng óng ả lan trôi trong gió,<br>
@@ -33,7 +33,7 @@ Giữa ranh giới mong manh của thực tại và giấc mơ...
 
 
 
-## 【Giới thiệu nhân vật】
+## 📖【Giới thiệu nhân vật】
 
 ![**Nhân vật chính của câu chuyện, Yumeri, du hành giữa thực tại và giấc mơ để tìm kiếm sự thật.**](https://memorieswithindreams.weebly.com/uploads/2/6/2/0/26202735/2912882.png)
 ![**Ray, cậu bé bí ẩn**](https://memorieswithindreams.weebly.com/uploads/2/6/2/0/26202735/2125708.png)
@@ -41,21 +41,23 @@ Giữa ranh giới mong manh của thực tại và giấc mơ...
 
 - Game có nội dung tầm 4h chơi với 5 Ending
 
-## 【Ảnh chụp màn hình】
+## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Ky-uc-trong-mo/02.webp)
 ![**Ảnh game**](./images/Post/Ky-uc-trong-mo/03.webp)
 ![**Ảnh game**](./images/Post/Ky-uc-trong-mo/04.webp)
 
-## 【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
-- Di chuyển: Phím mũi tên  
-- Điều tra / Xác nhận: Z / Space  
-- Menu / Hủy: X / ESC  
-- Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-- Tăng tốc: Shift  
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift                                                                                                                                  |
 
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 
 Không có lưu ý nào cả!
 

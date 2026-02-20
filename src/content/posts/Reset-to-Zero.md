@@ -18,26 +18,28 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/1hlpzyf7iAf-1ZZK_o_26-vsnk5t600x4/view)
 ---
-## 【Giới thiệu game】
+## 📖【Giới thiệu game】
 
 - Nội dung của trò chơi này không liên quan đến bất kỳ cá nhân, nhóm hoặc sự kiện nào trong thế giới thực.
 - Game có nội dung tầm 30p chơi với 5 Ending
 
-## 【Ảnh chụp màn hình】
+## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Reset-to-Zero/02.webp)
 ![**Ảnh game**](./images/Post/Reset-to-Zero/03.webp)
 ![**Ảnh game**](./images/Post/Reset-to-Zero/04.webp)
 
-## 【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
-- Di chuyển: Phím mũi tên  
-- Điều tra / Xác nhận: Z / Space  
-- Menu / Hủy: X / ESC  
-- Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-- Tăng tốc: Shift  
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift                                                                                                                                  |
 
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 
 Không có lưu ý nào cả!
 
