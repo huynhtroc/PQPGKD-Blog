@@ -1,7 +1,7 @@
 ---
 title: Bài Ca Hy Vọng
-published: 2016-11-03
-pinned: true
+published: 2026-01-01
+pinned: false
 description: Tiểu Khiết thức dậy và phát hiện mình đang ở trong một căn phòng xa lạ. Số phận của cô bé rồi sẽ ra sao?
 tags: [16+, Dưới 2h,VX Ace, Kinh dị, Giải đố, Hành động, Phiêu lưu, ]
 category: Đã việt hóa xong
@@ -9,11 +9,13 @@ licenseName: "unlicensed"
 author: 悠月
 sourceLink: "https://rpg.blue/thread-397158-1-8.html"
 draft: false
-date: 2025-01-20
+date: 2026-01-01
 image: /assets/images/Post/Bai-ca-hy-vong/01.webp
-pubDate: 2025-01-20
-updated: 2025-12-31
+pubDate: 2026-01-01
+updated: 2026-01-01
 ---
+
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/sFueDBJktL4" title="【BÀI CA HY VỌNG】XANH LÁ KHÔNG XA LÁNH || #FULL | SCHNAVIA GLÜCKLICHKEIT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 >## [Tải Xuống ⬇️](https://pub-a65f1b60c56f4ebca92f482e387bfa04.r2.dev/Bai%20Ca%20Hy%20Vong.rar) 
 ---
