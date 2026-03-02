@@ -39,7 +39,7 @@ updated: 2026-01-15
 | `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
 | `Tăng tốc`              | Shift                                                                                                                                  |
 
-## ⚠️【【Lưu ý】
+## ⚠️【Lưu ý】
 :::tip
 Nếu lỗi font hay cài font game vào máy tính!
 :::

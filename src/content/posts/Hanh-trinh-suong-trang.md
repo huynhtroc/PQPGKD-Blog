@@ -41,7 +41,7 @@ updated: 2026-01-17
 | `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
 | `Tăng tốc`              | Shift                                                                                                                                  |
 
-## ⚠️【【Lưu ý】
+## ⚠️【Lưu ý】
 :::tip
 Không có lưu ý nào cả!
 :::
