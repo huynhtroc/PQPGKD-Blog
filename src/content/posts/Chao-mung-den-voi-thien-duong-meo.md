@@ -30,20 +30,22 @@ Xin chào các bạn ^ ^
 - Mero là một nữ sinh trung học bình thường. Sau khi ngắm trận mưa sao băng, cô lạc vào một thế giới kì lạ. Đó là thiên đường của mèo.
 - Game có nội dung tầm 30p chơi với 1 Ending
 
-## 【Ảnh chụp màn hình】
+## 🖥️【Ảnh chụp màn hình】
 
 ![](./images/Post/Chao-mung-den-voi-thien-duong-meo/02.webp)
 ![](./images/Post/Chao-mung-den-voi-thien-duong-meo/03.webp)
 
 ## 📖【Cách điều khiển】
 
-> Di chuyển: Phím mũi tên  
-> Điều tra / Xác nhận: Z / Space  
-> Menu / Hủy: X / ESC  
-> Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-> Tăng tốc: Shift  
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift     
 
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 :::caution
 Không có lưu ý nào cả!
 :::

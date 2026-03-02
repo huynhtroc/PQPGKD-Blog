@@ -16,7 +16,7 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/1eoecgaslD81klgA9ZfnwhzL8sQWfrqeC/view) 
 ---
-## 📖【Giới thiệu game】
+## 🌟【Giới thiệu game】
 
 - Câu chuyện cảm động về bác sĩ và con mèo. 
 - Một chú mèo con vô gia cư được một bác sĩ vô gia cư nghèo khó cứu sống trong mùa đông lạnh giá. Cả hai sống một cuộc sống giản dị bên nhau cho đến khi...
@@ -39,7 +39,7 @@ pubDate: 2025-01-20
 | `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
 | `Tăng tốc`              | Shift                                                                                                                                  |
 
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 :::tip
 Không có lưu ý nào cả!
 :::

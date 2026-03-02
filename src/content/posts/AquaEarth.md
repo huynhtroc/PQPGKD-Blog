@@ -16,18 +16,18 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/1uGdgc50HNRGnpqvXE75X7pc4fNiEwZR8/view)
 ---
-## 【Giới thiệu game】
+## 🌟【Giới thiệu game】
 
 - Trên một hành tinh hoang vắng nhưng ấm áp, một cô gái sinh ra từ kén du hành về phía bắc, tìm kiếm dấu vết của nền văn minh.
 - Game có nội dung tầm 10p chơi với 3 Ending
 
-## 【Ảnh chụp màn hình】
+## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/AquaEarth/02.webp)
 ![**Ảnh game**](./images/Post/AquaEarth/03.webp)
 ![**Ảnh game**](./images/Post/AquaEarth/04.webp)
 
-## 【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
 - Di chuyển: Phím mũi tên  
 - Điều tra / Xác nhận: Z / Space  
@@ -35,7 +35,7 @@ pubDate: 2025-01-20
 - Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
 - Tăng tốc: Shift  
 
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 
 Không có lưu ý nào cả!
 

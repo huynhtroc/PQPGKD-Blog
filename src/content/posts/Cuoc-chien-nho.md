@@ -16,28 +16,31 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/1BE1Wv-y4nOPgY6V8a8Zs2PZfce9vqBpn/view)
 ---
-## 【Giới thiệu game】
+## 🌟【Giới thiệu game】
 
 - Trò chơi được làm nhanh để gửi dự thi.
 - Một trò chơi chiến thuật theo lượt, rất ngắn.
+:::note
 - Game có nội dung tầm 10p chơi với 2 Ending
-
-## 【Ảnh chụp màn hình】
+:::
+## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Cuoc-chien-nho/02.webp)
 ![**Ảnh game**](./images/Post/Cuoc-chien-nho/03.webp)
 ![**Ảnh game**](./images/Post/Cuoc-chien-nho/04.webp)
 
-## 【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
-- Di chuyển: Phím mũi tên  
-- Điều tra / Xác nhận: Z / Space  
-- Menu / Hủy: X / ESC  
-- Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-- Tăng tốc: Shift  
-
-## 【Lưu ý】
-
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift                                                                                                                                  |
+:::tip
+## ⚠️【Lưu ý】
+:::
 Không có lưu ý nào cả!
 
 🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0

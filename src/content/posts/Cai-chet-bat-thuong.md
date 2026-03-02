@@ -16,33 +16,36 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/19kg0PmZ3kr8c5mWryVdwhIzmtb25clgg/view)
 ---
-## 【Giới thiệu game】
+## 🌟【Giới thiệu game】
 
 - Nội dung của trò chơi này không liên quan đến bất kỳ cá nhân, nhóm hoặc sự kiện nào trong thế giới thực.
+:::note
 - Game có nội dung tầm 30p chơi với 5 Ending
-
-## 【Giới thiệu nhân vật】
+:::
+## 🌟【Giới thiệu nhân vật】
 
 ![**Một nữ sinh trung học cơ sở bình thường. Cô ấy chết vì một lý do nào đó và trở thành hồn ma sau khi chết.**](https://rpg.blue/data/attachment/forum/201410/20/231633pdp59e1tdddl5ld1.png)
 ![**Một cậu bé trầm lặng, kín đáo. Mọi thứ đều bí ẩn.**](https://rpg.blue/data/attachment/forum/201410/20/231634hhhesdd5hkgdxmmh.png)
 
-## 【Ảnh chụp màn hình】
+## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Cai-chet-bat-thuong/02.webp)
 ![**Ảnh game**](./images/Post/Cai-chet-bat-thuong/03.webp)
 ![**Ảnh game**](https://rpg.blue/data/attachment/forum/201410/20/225257sk9vvts5t5dsomd8.png)
 ![**Ảnh game**](https://rpg.blue/data/attachment/forum/201410/20/225254zpsd6s7spmbh7b0m.png)
 
-## 【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
-- Di chuyển: Phím mũi tên  
-- Điều tra / Xác nhận: Z / Space  
-- Menu / Hủy: X / ESC  
-- Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-- Tăng tốc: Shift  
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift                                                                                                                                  |
 
-## Hướng dẫn giải đố (Dành cho người không giỏi giải mật)
-
+## ⚠️ Hướng dẫn giải đố (Dành cho người không giỏi giải mật)
+:::tip
 1. **Bia mộ**:  
    Làm theo gợi ý trên tấm bảng gỗ để lần lượt nhấn vào các bia mộ.  
    Bia cuối cùng là **một trong ba bia mộ bị hư hỏng**.
@@ -86,5 +89,5 @@ pubDate: 2025-01-20
     Chọn **một trong hai**:  
     **máy cắt cỏ** hoặc **bình tưới nước**,  
     rồi **dọn sạch toàn bộ hoa**
-
+:::
 🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0

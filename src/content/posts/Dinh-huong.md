@@ -16,28 +16,31 @@ pubDate: 2025-01-20
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/10NE_oyE9gscrLxf8TLg09VDwNCjkChnC/view)
 ---
-## 【Giới thiệu game】
+## 🌟【Giới thiệu game】
 
 - Đinh Hương là một trò chơi tình cảm gia đình.
 - Lời tác giả: Tác phẩm này về cơ bản có thể nói là một kịch bản thuần R, và mạch cốt truyện thì không dài, thậm chí có thể nói là khá ngắn. (︶︿︶)
+:::note
 - Game có nội dung tầm 10p chơi với 1 Ending
-
-## 【Ảnh chụp màn hình】
+:::
+## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Dinh-huong/02.webp)
 ![**Ảnh game**](./images/Post/Dinh-huong/03.webp)
 ![**Ảnh game**](./images/Post/Dinh-huong/04.webp)
 
-## 【Cách điều khiển】
+## 🎮【Cách điều khiển】
 
-- Di chuyển: Phím mũi tên  
-- Điều tra / Xác nhận: Z / Space  
-- Menu / Hủy: X / ESC  
-- Sử dụng vật phẩm: Mở menu → chọn vật phẩm → nhấn phím xác nhận  
-- Tăng tốc: Shift  
+| Tương tác               | Phím bấm
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `Di chuyển`             | Phím mũi tên                                                                                                                           |
+| `Điều tra / Xác nhận`   | Z / Space                                                                                                                              |
+| `Menu / Hủy`            | X / ESC                                                                                                                                |
+| `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
+| `Tăng tốc`              | Shift                                                                                                                                  |
 
-## 【Lưu ý】
-
+## ⚠️【Lưu ý】
+:::tip
 Không có lưu ý nào cả!
-
+:::
 🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0
