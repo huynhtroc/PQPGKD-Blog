@@ -26,8 +26,8 @@ updated: 2026-01-15
 ## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Whereabouts/02.jpg)
-![**Ảnh game**](./images/Post/Whereabouts/03.png)
-![**Ảnh game**](./images/Post/Whereabouts/04.png)
+![**Ảnh game**](./images/Post/Whereabouts/03.PNG)
+![**Ảnh game**](./images/Post/Whereabouts/04.PNG)
 
 ## 🎮【Cách điều khiển】
 
