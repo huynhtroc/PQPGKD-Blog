@@ -28,10 +28,10 @@ updated: 2026-01-15
 ## 🖥️【Ảnh chụp màn hình】
 
 
-![**Ảnh game**](./images/Post/Mua-qua/02.png)
-![**Ảnh game**](./images/Post/Mua-qua/03.png)
-![**Ảnh game**](./images/Post/Mua-qua/04.png)
-![**Ảnh game**](./images/Post/Mua-qua/05.png)
+![**Ảnh game**](./images/Post/Mua-qua/02.PNG)
+![**Ảnh game**](./images/Post/Mua-qua/03.PNG)
+![**Ảnh game**](./images/Post/Mua-qua/04.PNG)
+![**Ảnh game**](./images/Post/Mua-qua/05.PNG)
 
 ## 🎮【Cách điều khiển】
 
