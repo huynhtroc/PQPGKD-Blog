@@ -1,33 +1,33 @@
 ---
-title: Chó Cưng Của Ma Nữ
-published: 2026-01-15
+title: Norly's Whereabouts
+published: 2018-04-29
 pinned: false
-description: Hành trình tìm chú chó cưng bị tuột khỏi xích.
-tags: [20+, Dưới 2h, MV, Kinh dị, Giải đố, Hành động, Phiêu lưu]
+description: Một cô bé tỉnh giấc trong một ngôi biệt thự xa lạ và bị một bóng đen lạ mặt đuổi theo. Chuyện gì đã xảy ra trong ngôi biệt thự này?
+tags: [20+, 2-10h, VX Ace, Kinh dị, Giải đố, Gia đình, Tình bạn]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
-author: 黛惠
-sourceLink: "https://rpg.blue/thread-496663-1-1.html"
+author: 霜降相肉
+sourceLink: "https://forum.gamer.com.tw/Co.php?bsn=04918&sn=228642"
 draft: false
-image: /assets/images/Post/Cho-cung-cua-ma-nu/01.png
+image: /assets/images/Post/Norly's-Whereabouts/01.PNG
 updated: 2026-01-15
 ---
 
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/8BqUewR3v-M" title="15分钟的可爱像素游戏竟让玩家死亡上百次？！国产短篇恐怖游戏《魔女的爱犬》" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/wmwkdO-Eb3o" title="「不明的追逐」EP.1 逃亡開始" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
->## [Tải Xuống ⬇️](https://drive.google.com/file/d/1BsBCzJH26HLm8y1Mxi-n4tgiWRLO8Jz4/view) 
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1Mk0yQB12M9WylM8s4qeFEpLm1b_edErw/view) 
 ---
 ## 📖【Giới thiệu game】
 
-- Hành trình tìm chú chó cưng bị tuột khỏi xích.
+- Một cô bé tỉnh giấc trong một ngôi biệt thự xa lạ và bị một bóng đen lạ mặt đuổi theo. Chuyện gì đã xảy ra trong ngôi biệt thự này?
 :::note
-- Game có nội dung tầm 30p chơi
+- Game có nội dung tầm 1,5-3h chơi
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Cho-cung-cua-ma-nu/02.jpg)
-![**Ảnh game**](./images/Post/Cho-cung-cua-ma-nu/03.jpg)
-![**Ảnh game**](./images/Post/Cho-cung-cua-ma-nu/04.jpg)
+![**Ảnh game**](./images/Post/Norly's-Whereabouts/02.JPG)
+![**Ảnh game**](./images/Post/Norly's-Whereabouts/03.png)
+![**Ảnh game**](./images/Post/Norly's-Whereabouts/04.png)
 
 ## 🎮【Cách điều khiển】
 
@@ -41,6 +41,6 @@ updated: 2026-01-15
 
 ## ⚠️【【Lưu ý】
 :::tip
-Không có lưu ý nào cả!
+Nếu lỗi font hay cài font game vào máy tính!
 :::
 🫰 Cuối cùng chúc mọi người chơi game vui vẻ 0w0
