@@ -25,9 +25,9 @@ updated: 2026-01-15
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Norly's-Whereabouts/02.JPG)
-![**Ảnh game**](./images/Post/Norly's-Whereabouts/03.png)
-![**Ảnh game**](./images/Post/Norly's-Whereabouts/04.png)
+![**Ảnh game**](./images/Post/Whereabouts/02.jpg)
+![**Ảnh game**](./images/Post/Whereabouts/03.png)
+![**Ảnh game**](./images/Post/Whereabouts/04.png)
 
 ## 🎮【Cách điều khiển】
 
