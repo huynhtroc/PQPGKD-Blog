@@ -39,7 +39,7 @@ Nghề Y Tá luôn phải đối mặt với những bệnh nhân kì lạ và n
 | `Sử dụng vật phẩm`      | Mở menu → chọn vật phẩm → nhấn phím xác nhận                                                                                           |
 | `Tăng tốc`              | Shift                                                                                                                                  |
 
-## 【Lưu ý】
+## ⚠️【Lưu ý】
 :::tip
 Không có lưu ý nào cả!
 :::
