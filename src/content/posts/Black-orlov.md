@@ -27,7 +27,7 @@ updated: 2026-01-15
 
 ![**Ảnh game**](./images/Post/Black-orlov/02.PNG)
 ![**Ảnh game**](./images/Post/Black-orlov/03.PNG)
-![**Ảnh game**](./images/Post/Black-orlov/04.JPG)
+![**Ảnh game**](./images/Post/Black-orlov/04.jpg)
 
 ## 🎮【Cách điều khiển】
 
