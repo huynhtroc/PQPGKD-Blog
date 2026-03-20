@@ -13,7 +13,7 @@ image: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/256334
 updated: 2026-03-19
 ---
 
->## [Tải Xuống ⬇️](https://drive.google.com/file/d/14E3AKUVuft9d_mqVUqdVf0xHiQ1qIJYj/view) 
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1EHBodXUYjuWVnzSvi_BYaGY1OGzPtP_T/view) 
 ---
 ## 📖【Giới thiệu game】
 
