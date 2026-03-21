@@ -9,7 +9,7 @@ licenseName: "unlicensed"
 author: おかゲ制作所
 sourceLink: "https://sites.google.com/view/okage-factory/%E6%A7%A8%E3%83%8E%E5%AE%B6?authuser=0"
 draft: false
-image: https://lh3.googleusercontent.com/sitesv/APaQ0SRZB_HiRmxXfgCW5x7lX0f3henkc7SZzW3YTAUALaSWMgCyakN9up0lguRKCRcLXJv-n-sKxwk87bB1npRA5N5Z3bVk2btd80bRiVrJNWF7OTVnDmtZXCM3U9sBcvHGopYRNUzLzkFeBPPgnSGjv3UhhcQ1P41SdaonRz-vRc_c5ChaBgdryqoXwzA42RbHCRzNwaq1iqZbGj8KPvxGyOK4V8E2-KCE1y9J=w1280
+image: /assets/images/Post/Ngoi-nha-quan-tai/01.jpg
 updated: 2026-03-21
 ---
 
