@@ -25,8 +25,8 @@ updated: 2026-03-21
 :::
 ## 🌟【Giới thiệu nhân vật】
 
-![**(Naoko Mitsuba)(Tiểu Phương) Cô ấy là học sinh lớp 12 và là bạn thời thơ ấu của Takuji Honjo, người đã tự tử. Cô ấy có tính cách vui vẻ và được cả nam sinh lẫn nữ sinh yêu mến . Cô ấy và Honjo học cùng trường trung học , nhưng tình bạn của họ đã trở nên xa cách. Cô ấy cảm thấy tội lỗi vì không thể ngăn cản Honjo tự tử.**](https://lh3.googleusercontent.com/sitesv/APaQ0STzQDWL8LuBWHfKEXrcQy8jsgc-3PXs_G7XNWXgYZDaUXZQ933Y8RViePuH0fURYgAEQjH3Nu8W7g76mTnrWZQRscd9vIsb4vjeLTJ6dg4bT_TrSI07ctzQqlEZigm8lX9CWZX6eqzURC1e_uuxeaohbZAwKTrwD0-07DylVWslFoRdPqra0wbC7cc7KqLDEJ6K0eZ0mqLkq0OqlmK-xqB5T65LltkEfJhlsUo=w1280)
-![**Một con quái vật biết nói mà Naoko Mitsuba đã gặp ở nhà Honjo. Nó nói năng rất thô tục, và đôi khi khó hiểu nó đang nói gì. Dường như nó có việc gì đó cần giải quyết ở nhà Honjo.**](https://lh3.googleusercontent.com/sitesv/APaQ0SRzEE5Bfcxj-r4egP-9P7utR7MKr6-ojFWLSXhoa9Eg9ptWFR6Aqzz4B0z2KH7MxZ0eaiSduooit0BuVnPEupR3GiMWGo8esnfVSzj48bNxfMA9E110DgAqrX-lfe5-SJT28OBZGynIYVBh_LQsnafWdEerBwleYnyM2n6WW5YEaE3Vx1gdzavEspAmaQodcye4ZnRKYtT-MjcgBxeIpQ-VzjxxeVIuD_cyjIw=w1280)
+![**(Naoko Mitsuba)(Tiểu Phương) Cô ấy là học sinh lớp 12 và là bạn thời thơ ấu của Takuji Honjo, người đã tự tử. Cô ấy có tính cách vui vẻ và được cả nam sinh lẫn nữ sinh yêu mến . Cô ấy và Honjo học cùng trường trung học , nhưng tình bạn của họ đã trở nên xa cách. Cô ấy cảm thấy tội lỗi vì không thể ngăn cản Honjo tự tử.**](./images/Post/Ngoi-nha-quan-tai/06.jpg)
+![**Một con quái vật biết nói mà Naoko Mitsuba đã gặp ở nhà Honjo. Nó nói năng rất thô tục, và đôi khi khó hiểu nó đang nói gì. Dường như nó có việc gì đó cần giải quyết ở nhà Honjo.**](./images/Post/Ngoi-nha-quan-tai/07.jpg)
 
 ## 🖥️【Ảnh chụp màn hình】
 
