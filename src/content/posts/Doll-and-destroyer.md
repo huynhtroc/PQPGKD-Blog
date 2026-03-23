@@ -9,7 +9,7 @@ licenseName: "unlicensed"
 author: 蒼間なぎ
 sourceLink: "https://booth.pm/ja/items/3692781"
 draft: false
-image: /assets/images/Post/Doll-and-destroyer/01.PNG
+image: /assets/images/Post/Doll-and-destroyer/01.png
 updated: 2026-03-23
 ---
 
@@ -26,7 +26,7 @@ updated: 2026-03-23
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Doll-and-destroyer/02.PNG)
+![**Ảnh game**](./images/Post/Doll-and-destroyer/02.png)
 ![**Ảnh game**](./images/Post/Doll-and-destroyer/03.PNG)
 ![**Ảnh game**](./images/Post/Doll-and-destroyer/04.PNG)
 ![**Ảnh game**](./images/Post/Doll-and-destroyer/05.PNG)
