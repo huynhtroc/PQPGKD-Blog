@@ -9,7 +9,7 @@ licenseName: "unlicensed"
 author: 蒼間なぎ
 sourceLink: "https://booth.pm/ja/items/3692781"
 draft: false
-image: /assets/images/Post/Doll-and-destroyer/01.png
+image: /assets/images/Post/Doll-and-destroyer/01.PNG
 updated: 2026-03-23
 ---
 
