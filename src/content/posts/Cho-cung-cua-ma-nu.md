@@ -3,7 +3,7 @@ title: Chó Cưng Của Ma Nữ
 published: 2026-01-15
 pinned: false
 description: Hành trình tìm chú chó cưng bị tuột khỏi xích.
-tags: [20+, Dưới 2h, MV, Kinh dị, Giải đố, Hành động, Phiêu lưu]
+tags: [21+, Dưới 2h, MV, Kinh dị, Giải đố, Hành động, Phiêu lưu]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: 黛惠

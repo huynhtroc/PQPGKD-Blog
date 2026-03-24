@@ -3,7 +3,7 @@ title: Trò Chơi Trốn Tìm
 published: 2026-03-23
 pinned: false
 description: Hãy cảnh giác với người lạ!
-tags: [20+, Dưới 2h, MV, Phiêu lưu, Bạn bè, Kinh dị, Giải đố]
+tags: [21+, Dưới 2h, MV, Phiêu lưu, Bạn bè, Kinh dị, Giải đố]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: 黛惠
