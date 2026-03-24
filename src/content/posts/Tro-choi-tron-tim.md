@@ -9,7 +9,7 @@ licenseName: "unlicensed"
 author: 黛惠
 sourceLink: "https://rpg.blue/thread-498619-1-1.html"
 draft: false
-image: /assets/images/Post/Tro-choi-tron-tim/01.PNG
+image: /assets/images/Post/Tro-choi-tron-tim/01.png
 updated: 2026-03-23
 ---
 
