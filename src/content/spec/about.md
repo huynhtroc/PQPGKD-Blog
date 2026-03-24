@@ -12,4 +12,4 @@ Nếu bạn muốn trao đổi về các vấn đề kỹ thuật, chia sẻ nh�
 ---
 
 *Cảm ơn bạn đã ghé thăm trang của mình! Hy vọng bạn có thể tìm thấy những trò chơi thú vị tại đây!*
-
+*Cảnh báo của Blog: những người có tiểu sử về bệnh tim dù ở bất kì độ tuổi nào cũng ko chơi game dán nhãn 20+ và 21+*
