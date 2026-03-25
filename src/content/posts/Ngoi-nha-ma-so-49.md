@@ -28,6 +28,7 @@ updated: 2026-03-25
 ![**Ảnh game**](./images/Post/Ngoi-nha-ma-so-49/02.PNG)
 ![**Ảnh game**](./images/Post/Ngoi-nha-ma-so-49/03.PNG)
 ![**Ảnh game**](./images/Post/Ngoi-nha-ma-so-49/04.PNG)
+![**Ảnh game**](./images/Post/Ngoi-nha-ma-so-49/05.PNG)
 
 
 ## 🎮【Cách điều khiển】
