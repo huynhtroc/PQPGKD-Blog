@@ -3,7 +3,7 @@ title: Doll and Destroyer
 published: 2022-03-01
 pinned: false
 description: Cuộc chiến không khoan nhượng giữa Doll và Destroyer.
-tags: [20+, 2-10h, MV, Kinh dị, Giải đố, Hành động, Tình  yêu, Tình bạn]
+tags: [20+, 2-10h, MV, Kinh dị, Giải đố, Hành động, Tình yêu, Tình bạn]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: 蒼間なぎ
