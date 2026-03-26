@@ -3,7 +3,7 @@ title: Ký ức trong mơ
 published: 2014-02-08
 pinned: false
 description: Đây là một câu chuyện về hành trình tìm kiếm chân tướng giữa ranh giới mong manh của thực tại và giấc mơ...
-tags: [16+,2-10h,VX Ace,Gia đình, Bạn bè, Giải đố, Trinh thám]
+tags: [16+,2-10h,VX Ace, Phiêu lưu, Gia đình, Bạn bè, Giải đố]
 category: Chưa việt hóa xong
 licenseName: "unlicensed"
 author: Dâu Tây
@@ -14,7 +14,7 @@ image: /assets/images/Post/Ky-uc-trong-mo/01.webp
 pubDate: 2025-01-20
 ---
 
->## [Tải Xuống ⬇️](https://drive.google.com/file/d/10V-kfYWWs5n-3FI0j9hIjvZ0r3fhM7YZ/view)
+>## [Tải Xuống (Chưa dịch XOng) ⬇️](https://drive.google.com/file/d/10V-kfYWWs5n-3FI0j9hIjvZ0r3fhM7YZ/view)
 ---
 ## 📖【Giới thiệu game】
 
@@ -39,13 +39,19 @@ Giữa ranh giới mong manh của thực tại và giấc mơ...
 ![**Ray, cậu bé bí ẩn**](https://memorieswithindreams.weebly.com/uploads/2/6/2/0/26202735/2125708.png)
 ![**Một dàn nhân vật quyến rũ đông đảo.**](https://memorieswithindreams.weebly.com/uploads/2/6/2/0/26202735/4268060_orig.png)
 
-- Game có nội dung tầm 4h chơi với 5 Ending
+- Game có nội dung tầm 6h chơi với 5 Ending
 
 ## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Ky-uc-trong-mo/02.webp)
 ![**Ảnh game**](./images/Post/Ky-uc-trong-mo/03.webp)
 ![**Ảnh game**](./images/Post/Ky-uc-trong-mo/04.webp)
+![**Ảnh game**](./images/Post/Ky-uc-trong-mo/05.PNG)
+![**Ảnh game**](./images/Post/Ky-uc-trong-mo/06.PNG)
+![**Ảnh game**](./images/Post/Ky-uc-trong-mo/07.PNG)
+![**Ảnh game**](./images/Post/Ky-uc-trong-mo/08.PNG)
+![**Ảnh game**](./images/Post/Ky-uc-trong-mo/09.PNG)
+![**Ảnh game**](./images/Post/Ky-uc-trong-mo/10.PNG)
 
 ## 🎮【Cách điều khiển】
 

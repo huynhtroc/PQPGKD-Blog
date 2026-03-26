@@ -24,15 +24,15 @@ pubDate: 2025-01-20
 :::
 ## 🌟【Giới thiệu nhân vật】
 
-![**Một nữ sinh trung học cơ sở bình thường. Cô ấy chết vì một lý do nào đó và trở thành hồn ma sau khi chết.**](https://rpg.blue/data/attachment/forum/201410/20/231633pdp59e1tdddl5ld1.png)
-![**Một cậu bé trầm lặng, kín đáo. Mọi thứ đều bí ẩn.**](https://rpg.blue/data/attachment/forum/201410/20/231634hhhesdd5hkgdxmmh.png)
+![**Một nữ sinh trung học cơ sở bình thường. Cô ấy chết vì một lý do nào đó và trở thành hồn ma sau khi chết.**](./images/Post/Cai-chet-bat-thuong/04.png)
+![**Một cậu bé trầm lặng, kín đáo. Mọi thứ đều bí ẩn.**](./images/Post/Cai-chet-bat-thuong/05.png)
 
 ## 🖥️【Ảnh chụp màn hình】
 
 ![**Ảnh game**](./images/Post/Cai-chet-bat-thuong/02.webp)
 ![**Ảnh game**](./images/Post/Cai-chet-bat-thuong/03.webp)
-![**Ảnh game**](https://rpg.blue/data/attachment/forum/201410/20/225257sk9vvts5t5dsomd8.png)
-![**Ảnh game**](https://rpg.blue/data/attachment/forum/201410/20/225254zpsd6s7spmbh7b0m.png)
+![**Ảnh game**](./images/Post/Cai-chet-bat-thuong/06.png)
+![**Ảnh game**](./images/Post/Cai-chet-bat-thuong/07.png)
 
 ## 🎮【Cách điều khiển】
 
