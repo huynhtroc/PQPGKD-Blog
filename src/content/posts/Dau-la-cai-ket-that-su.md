@@ -28,10 +28,10 @@ updated: 2026-05-05
 
 ![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/02.PNG)
 ![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/03.PNG)
-![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/04.PNG)
-![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/05.PNG)
-![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/06.PNG)
-![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/07.PNG)
+![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/04.png)
+![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/05.png)
+![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/06.png)
+![**Ảnh game**](./images/Post/Dau-la-cai-ket-that-su/07.png)
 
 ## 🎮【Cách điều khiển】
 
