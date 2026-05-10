@@ -3,7 +3,7 @@ title: "留言板"
 description: "在这里留下你的足迹"
 ---
 
-- 请保持友善和尊重，营造良好的交流氛围
-- 欢迎分享你的想法，也可以提出对网站的建议
-- 你的每一条留言都是对我最大的支持 ✨
+- Vui lòng các fen giữ thái độ thân thiện và tôn trọng để tạo nên một môi trường trò chuyện tích cực.
+- Hoan nghênh bạn chia sẻ suy nghĩ của mình và đưa ra góp ý cho website.
+- Mỗi lời nhắn của bạn đều là sự ủng hộ lớn nhất dành cho mình ✨
 

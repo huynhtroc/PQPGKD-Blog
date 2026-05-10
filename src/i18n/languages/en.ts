@@ -53,7 +53,7 @@ export const en: Translation = {
 		"Bạn chưa bật hệ thống bình luận trong file cấu hình. Sau khi bật, khách truy cập sẽ có thể để lại tin nhắn ở đây",
 	[Key.friends]: "Bạn bè",
 	[Key.friendsDescription]:
-		"Đây là những người bạn của tôi, chào mừng bạn ghé thăm và giao lưu",
+		"Đây là những người bạn của mình, hoan nghênh ghé thăm và giao lưu với nhau nhé!",
 	[Key.guestbook]: "Sổ lưu bút",
 	[Key.guestbookDescription]:
 		"Chào mừng bạn để lại dấu ấn tại đây, chia sẻ suy nghĩ và góp ý",
@@ -305,7 +305,7 @@ export const en: Translation = {
 	[Key.codeCollapsibleCollapsed]: "Code block collapsed",
 
 	// Gallery Page
-	[Key.gallery]: "Thư viện",
+	[Key.gallery]: "Tập ảnh",
 	[Key.galleryDescription]: "Lưu giữ những khoảnh khắc đẹp trong cuộc sống",
 	[Key.galleryPhotos]: "ảnh",
 	[Key.galleryAlbums]: "album",

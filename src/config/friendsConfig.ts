@@ -11,7 +11,7 @@ export const friendsPageConfig: FriendsPageConfig = {
 	description: "",
 
 	// 是否显示底部自定义内容（friends.mdx 中的内容）
-	showCustomContent: true,
+	showCustomContent: false,
 
 	// 是否显示评论区，需要先在commentConfig.ts启用评论系统
 	showComment: true,
@@ -23,32 +23,58 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
-		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
+		title: "PQPGKD",
+		imgurl: "/assets/images/avatar.webp",
+		desc: "Tôi dễ thương",
+		siteurl: "https://www.facebook.com/PqpgkD",
+		tags: ["Facebook"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
-		weight: 9,
-		enabled: true,
+		title: "Schnavia Glücklichkeit",
+		imgurl: "/assets/images/Friends/01.jpg",
+		desc: "Bạn thân",
+		siteurl: "https://www.facebook.com/Schnavia?locale=vi_VN",
+		tags: ["Facebook"],
+		weight: 8, 
+		enabled: true, 
 	},
 	{
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
-		tags: ["Framework"],
-		weight: 8,
-		enabled: true,
+		title: "Truong Ducsang",
+		imgurl: "/assets/images/Friends/02.jpg",
+		desc: "Bạn thân",
+		siteurl: "https://www.facebook.com/profile.php?id=61582852254494",
+		tags: ["Facebook"],
+		weight: 4, 
+		enabled: true, 
+	},
+	{
+		title: "Phạm Vinh Quang ",
+		imgurl: "/assets/images/Friends/06.jpg",
+		desc: "Bạn thân",
+		siteurl: "https://www.facebook.com/pham.vinh.quang.767999",
+		tags: ["Facebook"],
+		weight: 7, 
+		enabled: true, 
+	},
+	{
+		title: "Huỳnh Quang Quân ",
+		imgurl: "/assets/images/Friends/03.jpg",
+		desc: "Bạn thân",
+		siteurl: "https://www.facebook.com/huynh.quang.quan.2024",
+		tags: ["Facebook"],
+		weight: 6, 
+		enabled: true, 
+	},
+	{
+		title: "Duc Anh ",
+		imgurl: "/assets/images/Friends/04.jpg",
+		desc: "Bạn thân",
+		siteurl: "https://www.facebook.com/duc.anh.265568",
+		tags: ["Facebook"],
+		weight: 5, 
+		enabled: true, 
 	},
 ];
 
