@@ -1,0 +1,57 @@
+---
+interface Props {
+  class?: string;
+  style?: string;
+}
+
+const className = Astro.props.class;
+const style = Astro.props.style;
+---
+
+<div class:list={["card-base rounded-(--radius-large) overflow-hidden", className]} style={style}>
+  <div class="relative w-full h-[280px] overflow-hidden rounded-(--radius-large)">
+    <canvas id="feedcat-canvas" class="absolute inset-0 w-full h-full block rounded-(--radius-large)"></canvas>
+  </div>
+</div>
+
+
+<script is:inline src="/rive/rive.js"></script>
+
+<script is:inline>
+  function initFeedCatRive() {
+    const canvas = document.getElementById("feedcat-canvas");
+    if (!canvas) return;
+
+    if (canvas.__rive) {
+      try {
+        canvas.__rive.resizeDrawingSurfaceToCanvas();
+      } catch {}
+      return;
+    }
+
+    const riveInstance = new rive.Rive({
+      src: "/rive/22570-42227-feed-moncu.riv",
+      canvas,
+      autoplay: true,
+      stateMachines: "State Machine 1",
+      layout: new rive.Layout({
+        fit: rive.Fit.Cover,
+        alignment: rive.Alignment.Center,
+      }),
+      onLoad: resize,
+    });
+
+    function resize() {
+      try {
+        riveInstance.resizeDrawingSurfaceToCanvas();
+      } catch {}
+    }
+
+    window.addEventListener("resize", resize);
+
+    canvas.__rive = riveInstance;
+  }
+
+  document.addEventListener("DOMContentLoaded", initFeedCatRive);
+  document.addEventListener("astro:page-load", initFeedCatRive);
+</script>
