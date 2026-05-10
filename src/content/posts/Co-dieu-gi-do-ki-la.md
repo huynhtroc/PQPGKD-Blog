@@ -1,34 +1,32 @@
 ---
-title: Giảm Tải
-published: 2017-10-28
+title: Có Điều Gì Đó Kì Lạ
+published: 2015-11-15
 pinned: false
-description: Sau khi uống thuốc, cô gái có một giấc mơ. "Tỉnh dậy đi, không thể ngủ lại được nữa... Một khi đã ngủ thiếp đi..." Cô biết mình phải tìm lại chính mình trong giấc mơ.
-tags: [14+, Dưới 2h, VX Ace, Tâm lý, Gia đình, Giải đố, Bí ẩn]
+description: Liệu có khi nào thức dậy, bạn cảm thấy cảnh vật xung quanh rất khác so với hôm qua không? Hãy tìm hiểu câu chuyện trong game nhé!
+tags: [12+, Dưới 2h, VX Ace, Gia Đình, Bí ẩn, Âm nhạc, Giải đố]
 category: Đã việt hóa xong
 licenseName: "unlicensed"  
-author: Nhã My
-sourceLink: "https://rpg.blue/thread-403627-1-1.html"
+author: OneEyedEagle
+sourceLink: "https://rpg.blue/thread-385668-1-1.html"
 draft: false
-image: /assets/images/Post/Giam-tai/01.PNG
-updated: 2026-05-08
+image: /assets/images/Post/Co-dieu-gi-do-ki-la/01.PNG
+updated: 2026-05-10
 ---
 
->## [Tải Xuống ⬇️](https://drive.google.com/file/d/1ZAmqO0SYFKHwQxvp64KFnLC6wkGqSscy/view) 
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1-s7gfcbr-stpEUJji-CPUS4CsdakESE8/view) 
 
 ---
 ## 📖【Giới thiệu game】
 
-- Sau khi uống thuốc, cô gái có một giấc mơ.   
-   "Tỉnh dậy đi, không thể ngủ lại được nữa... Một khi đã ngủ thiếp đi..."   
-   Cô biết mình phải tìm lại chính mình trong giấc mơ.   
+- Liệu có khi nào thức dậy, bạn cảm thấy cảnh vật xung quanh rất khác so với hôm qua không? Hãy tìm hiểu câu chuyện trong game nhé!
 :::note
-- Game có nội dung tầm 30p chơi với 2 ending.
+- Game có nội dung tầm 15p chơi với 2 ending.
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Giam-tai/02.PNG)
-![**Ảnh game**](./images/Post/Giam-tai/03.PNG)
-![**Ảnh game**](./images/Post/Giam-tai/04.png)
+![**Ảnh game**](./images/Post/Co-dieu-gi-do-ki-la/02.png)
+![**Ảnh game**](./images/Post/Co-dieu-gi-do-ki-la/03.PNG)
+![**Ảnh game**](./images/Post/Co-dieu-gi-do-ki-la/04.PNG)
 
 ## 🎮【Cách điều khiển】
 

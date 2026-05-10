@@ -3,7 +3,7 @@ title: Đinh Hương
 published: 2015-08-01
 pinned: false
 description: Đinh Hương là một trò chơi tình cảm gia đình.
-tags: [10+,Dưới 2h,Vx,Gia đình, Bạn bè, Thú cưng, Âm nhạc]
+tags: [10+,Dưới 2h, VX, Gia đình, Bạn bè, Thú cưng, Âm nhạc]
 category: Đã việt hóa xong
 licenseName: "unlicensed"
 author: Password

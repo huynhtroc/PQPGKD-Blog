@@ -1,34 +1,34 @@
 ---
-title: Giảm Tải
-published: 2017-10-28
+title: Một Quả Trứng
+published: 2016-10-22
 pinned: false
-description: Sau khi uống thuốc, cô gái có một giấc mơ. "Tỉnh dậy đi, không thể ngủ lại được nữa... Một khi đã ngủ thiếp đi..." Cô biết mình phải tìm lại chính mình trong giấc mơ.
-tags: [14+, Dưới 2h, VX Ace, Tâm lý, Gia đình, Giải đố, Bí ẩn]
+description: Bạn là một quả trứng, nhưng bạn không biết mình là loại trứng gì. Vì vậy, bạn phải tìm ra danh tính thực sự của mình trên chiếc bàn này.
+tags: [10+, Dưới 2h, VX Ace, Giải đố, Nấu ăn, Hài hước, Bí ẩn]
 category: Đã việt hóa xong
 licenseName: "unlicensed"  
-author: Nhã My
-sourceLink: "https://rpg.blue/thread-403627-1-1.html"
+author: Arfies
+sourceLink: "https://rpg.blue/thread-396932-1-1.html"
 draft: false
-image: /assets/images/Post/Giam-tai/01.PNG
-updated: 2026-05-08
+image: /assets/images/Post/Mot-qua-trung/01.PNG
+updated: 2026-05-10
 ---
 
->## [Tải Xuống ⬇️](https://drive.google.com/file/d/1ZAmqO0SYFKHwQxvp64KFnLC6wkGqSscy/view) 
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/s2eNhNYW0tk" title="Một quả trứng (Việt hóa)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/10Y8ioYyCFPDEbInIzKy8jhGDxAKVtGp-/view) 
 
 ---
 ## 📖【Giới thiệu game】
 
-- Sau khi uống thuốc, cô gái có một giấc mơ.   
-   "Tỉnh dậy đi, không thể ngủ lại được nữa... Một khi đã ngủ thiếp đi..."   
-   Cô biết mình phải tìm lại chính mình trong giấc mơ.   
+- Bạn là một quả trứng, nhưng bạn không biết mình là loại trứng gì. Vì vậy, bạn phải tìm ra danh tính thực sự của mình trên chiếc bàn này.
 :::note
-- Game có nội dung tầm 30p chơi với 2 ending.
+- Game có nội dung tầm 10p chơi với 1 ending.
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Giam-tai/02.PNG)
-![**Ảnh game**](./images/Post/Giam-tai/03.PNG)
-![**Ảnh game**](./images/Post/Giam-tai/04.png)
+![**Ảnh game**](./images/Post/Mot-qua-trung/02.PNG)
+![**Ảnh game**](./images/Post/Mot-qua-trung/03.PNG)
+![**Ảnh game**](./images/Post/Mot-qua-trung/04.png)
 
 ## 🎮【Cách điều khiển】
 

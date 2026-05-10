@@ -3,14 +3,14 @@ title: Đem Đồ Ăn
 published: 2019-12-14
 pinned: false
 description: Bạn của bạn muốn ăn gì? Hãy làm một món ngon nhất cho bạn ấy.
-tags: [10+, Dưới 2h, Vx Ace, Tình bạn, Nấu ăn, Hài hước, Âm nhạc]
+tags: [10+, Dưới 2h, VX Ace, Tình bạn, Nấu ăn, Hài hước, Âm nhạc]
 category: Đã việt hóa xong
 licenseName: "unlicensed"  
 author: Arfies
 sourceLink: "https://rpg.blue/thread-479566-1-1.html"
 draft: false
 image: /assets/images/Post/Dem-do-an/01.PNG
-updated: 2026-05-09
+updated: 2026-05-10
 ---
 
 >## [Tải Xuống ⬇️](https://drive.google.com/file/d/1S8mZAKd3ZMWVUzON_AKTEFZKCPUzS1HU/view) 

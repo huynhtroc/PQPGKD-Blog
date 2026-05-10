@@ -3,7 +3,7 @@ title: Ngủ Ngon Nhé Gấu Teddy
 published: 2016-02-22
 pinned: false
 description: Liệu bạn còn nhớ con gấu bông đã gắn bó với tuổi thơ của bạn trong mỗi giấc ngủ?
-tags: [16+, Dưới 2h, Vx Ace, Kinh dị, Giải đố, Tình bạn, Gia đình]
+tags: [16+, Dưới 2h, VX Ace, Kinh dị, Giải đố, Tình bạn, Gia đình]
 category: Đã việt hóa xong
 licenseName: "unlicensed"  
 author: Bike

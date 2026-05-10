@@ -3,7 +3,7 @@ title: Chỉ Cần Tỏ Tình Là Đồng Ý
 published: 2021-07-29
 pinned: false
 description: Câu chuyện ngôn tình về tình yêu học trò khi nhân vật nữ quyết định tỏ tình với nhân vật nam.
-tags: [14+, Dưới 2h, Vx Ace, Tình Yêu, Nấu ăn, Giải đố, Âm nhạc]
+tags: [14+, Dưới 2h, VX Ace, Tình Yêu, Nấu ăn, Giải đố, Âm nhạc]
 category: Đã việt hóa xong
 licenseName: "unlicensed"  
 author: Thỏ Không Đuôi
