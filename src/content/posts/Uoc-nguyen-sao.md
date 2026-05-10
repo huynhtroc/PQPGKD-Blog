@@ -1,39 +1,31 @@
 ---
-title: Rose
-published: 2014-08-27
-pinned: true
-description: Hành trình phiêu lưu của một âm dương sư giải thoát những linh hồn mang chấp niệm.
-tags: [16+, 2-10h, VX Ace, Phiêu lưu, Giải đố, Gia đình, Tình bạn, Phép thuật]
+title: Ước Nguyện Sao
+published: 2018-02-21
+pinned: false
+description: Hôm nay là ngày lễ Ước Nguyện Sao. Khách Lạc Ca và những người bạn đã chuẩn bị những bông hoa ngũ sắc dâng lên Thần để cầu nguyện sức khỏe, hạnh phúc cho mọi người.
+tags: [10+, Dưới 2h, VX Ace, Gia đình, Tình bạn, Phiêu lưu, Lễ hội]
 category: Đã việt hóa xong
-licenseName: "unlicensed"
-author: Cô Bé Lọ Lem
-sourceLink: "https://rpg.blue/thread-370516-1-1.html"
+licenseName: "unlicensed"  
+author: MiNiMao
+sourceLink: "https://home.gamer.com.tw/artwork.php?sn=3895739"
 draft: false
-image: /assets/images/Post/Rose/01.PNG
+image: /assets/images/Post/Uoc-nguyen-sao/01.PNG
 updated: 2026-05-10
 ---
 
->## [Tải Xuống (GG Drive) ⬇️](https://drive.google.com/file/d/12gQYP121DlOsKF54pO8nETU3uFH7n77M/view) 
->## [Hướng dẫn giải đố](https://www.youtube.com/watch?v=2WwXET3uzdA)
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1FpLlA9XxKkxs1MUf7-KY53mqXMco6Eda/view) 
 
 ---
 ## 📖【Giới thiệu game】
 
-- Hành trình phiêu lưu của một âm dương sư giải thoát những linh hồn mang chấp niệm.
+- Hôm nay là ngày lễ Ước Nguyện Sao. Khách Lạc Ca và những người bạn đã chuẩn bị những bông hoa ngũ sắc dâng lên Thần để cầu nguyện sức khỏe, hạnh phúc cho mọi người.
 :::note
-- Game có nội dung tầm 6-10h chơi với 5 ending.
+- Game có nội dung tầm 20p chơi với 1 ending.
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Rose/02.PNG)
-![**Ảnh game**](./images/Post/Rose/03.PNG)
-![**Ảnh game**](./images/Post/Rose/04.PNG)
-![**Ảnh game**](./images/Post/Rose/05.PNG)
-![**Ảnh game**](./images/Post/Rose/06.PNG)
-![**Ảnh game**](./images/Post/Rose/07.PNG)
-![**Ảnh game**](./images/Post/Rose/08.PNG)
-![**Ảnh game**](./images/Post/Rose/09.PNG)
-![**Ảnh game**](./images/Post/Rose/10.PNG)
+![**Ảnh game**](./images/Post/Uoc-nguyen-sao/02.PNG)
+![**Ảnh game**](./images/Post/Uoc-nguyen-sao/03.PNG)
 
 ## 🎮【Cách điều khiển】
 

@@ -1,39 +1,33 @@
 ---
-title: Rose
-published: 2014-08-27
-pinned: true
-description: Hành trình phiêu lưu của một âm dương sư giải thoát những linh hồn mang chấp niệm.
-tags: [16+, 2-10h, VX Ace, Phiêu lưu, Giải đố, Gia đình, Tình bạn, Phép thuật]
+title: Quà Sinh Nhật
+published: 2020-06-21
+pinned: false
+description: Hãy cẩn thận khi nhận quà sinh nhật từ người lạ!
+tags: [14+, Dưới 2h, VX Ace, Gia Đình, Tâm lý, Bí ẩn, Giải đố]
 category: Đã việt hóa xong
-licenseName: "unlicensed"
-author: Cô Bé Lọ Lem
-sourceLink: "https://rpg.blue/thread-370516-1-1.html"
+licenseName: "unlicensed"  
+author: Thiên Tiểu Thế
+sourceLink: "https://rpg.blue/thread-482255-1-1.html"
 draft: false
-image: /assets/images/Post/Rose/01.PNG
+image: /assets/images/Post/Qua-sinh-nhat/01.PNG
 updated: 2026-05-10
 ---
 
->## [Tải Xuống (GG Drive) ⬇️](https://drive.google.com/file/d/12gQYP121DlOsKF54pO8nETU3uFH7n77M/view) 
->## [Hướng dẫn giải đố](https://www.youtube.com/watch?v=2WwXET3uzdA)
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/hZ1ZAk22JUw" title="[Birthday Present - Việt hóa] Sinh nhật ai vậy? || #Full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1cHvmdh4qAiTDyQs556cR3vrur6BUa_ic/view) 
 
 ---
 ## 📖【Giới thiệu game】
 
-- Hành trình phiêu lưu của một âm dương sư giải thoát những linh hồn mang chấp niệm.
+- Hãy cẩn thận khi nhận quà sinh nhật từ người lạ!
 :::note
-- Game có nội dung tầm 6-10h chơi với 5 ending.
+- Game có nội dung tầm 10p chơi với 3 ending.
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Rose/02.PNG)
-![**Ảnh game**](./images/Post/Rose/03.PNG)
-![**Ảnh game**](./images/Post/Rose/04.PNG)
-![**Ảnh game**](./images/Post/Rose/05.PNG)
-![**Ảnh game**](./images/Post/Rose/06.PNG)
-![**Ảnh game**](./images/Post/Rose/07.PNG)
-![**Ảnh game**](./images/Post/Rose/08.PNG)
-![**Ảnh game**](./images/Post/Rose/09.PNG)
-![**Ảnh game**](./images/Post/Rose/10.PNG)
+![**Ảnh game**](./images/Post/Qua-sinh-nhat/02.PNG)
+![**Ảnh game**](./images/Post/Qua-sinh-nhat/03.PNG)
 
 ## 🎮【Cách điều khiển】
 

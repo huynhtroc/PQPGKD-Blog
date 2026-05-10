@@ -1,5 +1,5 @@
 ---
-title: Heart Knots
+title: Heart Knots Demo
 published: 2020-06-24
 pinned: false
 description: Đồng là một học sinh trung học cơ sở. Một ngày nọ, cô thức dậy trong phòng như thường lệ. Khi chuẩn bị đến trường, cô chợt nhận thấy mọi thứ trong nhà đều đã thay đổi. Cô không muốn bị trễ học nên quyết định kiểm tra xung quanh xem có chuyện gì đang xảy ra.
@@ -9,7 +9,7 @@ licenseName: "unlicensed"
 author: Star Wing Sakura
 sourceLink: "https://rpg.blue/thread-482285-1-3.html"
 draft: false
-image: /assets/images/Post/Heart-Knots/01.png
+image: /assets/images/Post/Heart-Knots-demo/01.png
 updated: 2026-05-10
 ---
 
@@ -26,10 +26,10 @@ updated: 2026-05-10
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Heart-Knots/02.PNG)
-![**Ảnh game**](./images/Post/Heart-Knots/03.png)
-![**Ảnh game**](./images/Post/Heart-Knots/04.png)
-![**Ảnh game**](./images/Post/Heart-Knots/05.jpg)
+![**Ảnh game**](./images/Post/Heart-Knots-demo/02.PNG)
+![**Ảnh game**](./images/Post/Heart-Knots-demo/03.png)
+![**Ảnh game**](./images/Post/Heart-Knots-demo/04.png)
+![**Ảnh game**](./images/Post/Heart-Knots-demo/05.jpg)
 
 ## 🎮【Cách điều khiển】
 

@@ -1,39 +1,33 @@
 ---
-title: Rose
-published: 2014-08-27
-pinned: true
-description: Hành trình phiêu lưu của một âm dương sư giải thoát những linh hồn mang chấp niệm.
-tags: [16+, 2-10h, VX Ace, Phiêu lưu, Giải đố, Gia đình, Tình bạn, Phép thuật]
+title: Tôi Là...
+published: 2020-04-22
+pinned: false
+description: Thế giới sẽ như thế nào trong mắt những đứa trẻ thiếu tình thương của cha mẹ?
+tags: [14+, Dưới 2h, MV, Tâm lý, Kinh dị, Hành động, Giải đố]
 category: Đã việt hóa xong
-licenseName: "unlicensed"
-author: Cô Bé Lọ Lem
-sourceLink: "https://rpg.blue/thread-370516-1-1.html"
+licenseName: "unlicensed"  
+author: NoriTuzu
+sourceLink: "https://rarodado.com/2020/04/22/boku/"
 draft: false
-image: /assets/images/Post/Rose/01.PNG
+image: /assets/images/Post/Toi-la/01.PNG
 updated: 2026-05-10
 ---
 
->## [Tải Xuống (GG Drive) ⬇️](https://drive.google.com/file/d/12gQYP121DlOsKF54pO8nETU3uFH7n77M/view) 
->## [Hướng dẫn giải đố](https://www.youtube.com/watch?v=2WwXET3uzdA)
+>## [Tải Xuống ⬇️](https://drive.google.com/file/d/1FwPLctByAqbASg5fD6kUd4UqfrEV2U0J/view) 
 
 ---
 ## 📖【Giới thiệu game】
 
-- Hành trình phiêu lưu của một âm dương sư giải thoát những linh hồn mang chấp niệm.
+- Thế giới sẽ như thế nào trong mắt những đứa trẻ thiếu tình thương của cha mẹ?
 :::note
-- Game có nội dung tầm 6-10h chơi với 5 ending.
+- Game có nội dung tầm 15p chơi với 5 ending.
 :::
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Ảnh game**](./images/Post/Rose/02.PNG)
-![**Ảnh game**](./images/Post/Rose/03.PNG)
-![**Ảnh game**](./images/Post/Rose/04.PNG)
-![**Ảnh game**](./images/Post/Rose/05.PNG)
-![**Ảnh game**](./images/Post/Rose/06.PNG)
-![**Ảnh game**](./images/Post/Rose/07.PNG)
-![**Ảnh game**](./images/Post/Rose/08.PNG)
-![**Ảnh game**](./images/Post/Rose/09.PNG)
-![**Ảnh game**](./images/Post/Rose/10.PNG)
+![**Ảnh game**](./images/Post/Toi-la/02.PNG)
+![**Ảnh game**](./images/Post/Toi-la/03.PNG)
+![**Ảnh game**](./images/Post/Toi-la/04.jpg)
+![**Ảnh game**](./images/Post/Toi-la/05.jpg)
 
 ## 🎮【Cách điều khiển】
 
