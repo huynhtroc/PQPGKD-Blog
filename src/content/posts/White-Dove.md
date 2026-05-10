@@ -56,8 +56,8 @@ Thời lượng chơi thì hình như không ghi trực tiếp được, nhưng 
 
 ## 🖥️【Ảnh chụp màn hình】
 
-![**Góc dưới bên phải bức tranh có dòng chữ (Búp bê gấu treo cổ)**](https://rpg.blue/forum.php?mod=attachment&aid=MTQzNjk2fDlkNWU4Zjg4fDE3NjY2MjcyMjl8MHwyNTUzMDA%3D&noupdate=yes)
-![**Lười dịch**](https://rpg.blue/forum.php?mod=attachment&aid=MTQzNjk4fDk0MDQ4ZThmfDE3NjY2MzAyNDZ8MHwyNTUzMDA%3D&noupdate=yes)
+![**Góc dưới bên phải bức tranh có dòng chữ (Búp bê gấu treo cổ)**](./images/Post/White-Dove/01.jpg)
+![**Lười dịch**](./images/Post/White-Dove/02.jpg)
 
 ## 🎮【Cách điều khiển】
 
