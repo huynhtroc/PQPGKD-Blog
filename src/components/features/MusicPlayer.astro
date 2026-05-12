@@ -12,6 +12,7 @@ interface Props {
 const { class: className, style, id } = Astro.props;
 
 const config = musicPlayerConfig;
+const showProgressBar = config.showProgressBar ?? false;
 
 const viewConfigStr = JSON.stringify({
 	showLyrics: config.showLyrics ?? true,
@@ -92,7 +93,7 @@ const widgetId =
 </div>
 
 <!-- Progress Bar (Slim) -->
-<div class="px-1">
+<div class:list={["px-1", !showProgressBar && "hidden"]}>
     <div class="progress-container relative w-full h-1 bg-neutral-100 dark:bg-neutral-700/50 rounded-full cursor-pointer touch-none mb-2 group mt-2" role="slider" aria-label={i18n(I18nKey.musicProgress)} aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
         <div class="progress-bar absolute left-0 top-0 h-full bg-(--primary) rounded-full w-0 transition-[width] duration-100"></div>
         <!-- Hover Thumb -->

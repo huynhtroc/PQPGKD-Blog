@@ -25,6 +25,9 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 是否显启用歌词
 	showLyrics: true,
 
+	// Show the music seek/progress bar.
+	showProgressBar: false,
+
 	// Meting API 配置
 	meting: {
 		// Meting API 地址
