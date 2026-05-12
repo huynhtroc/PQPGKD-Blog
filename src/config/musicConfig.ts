@@ -14,7 +14,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "local",
 
 	// 默认音量 (0-1)
-	volume: 0.4,
+	volume: 0.5,
 
 	// Automatically start playback when the site loads.
 	autoPlay: true,
