@@ -133,24 +133,31 @@ const managerConfigStr = JSON.stringify({
         window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
     }
 
+    function getRandomIndex(excludedIndex) {
+        if (state.playlist.length <= 1) return 0;
+
+        var nextIndex = Math.floor(Math.random() * (state.playlist.length - 1));
+        if (nextIndex >= excludedIndex) nextIndex++;
+        return nextIndex;
+    }
+
     function removeAutoPlayRetry() {
-        window.removeEventListener('pointerdown', retryAutoPlay);
-        window.removeEventListener('keydown', retryAutoPlay);
-        window.removeEventListener('touchstart', retryAutoPlay);
+        window.removeEventListener('pointerdown', retryAutoPlay, true);
+        window.removeEventListener('keydown', retryAutoPlay, true);
+        window.removeEventListener('touchstart', retryAutoPlay, true);
         autoPlayRetryInstalled = false;
     }
 
     function installAutoPlayRetry() {
         if (autoPlayRetryInstalled) return;
         autoPlayRetryInstalled = true;
-        window.addEventListener('pointerdown', retryAutoPlay, { passive: true });
-        window.addEventListener('keydown', retryAutoPlay);
-        window.addEventListener('touchstart', retryAutoPlay, { passive: true });
+        window.addEventListener('pointerdown', retryAutoPlay, { passive: true, capture: true });
+        window.addEventListener('keydown', retryAutoPlay, true);
+        window.addEventListener('touchstart', retryAutoPlay, { passive: true, capture: true });
     }
 
-    function retryAutoPlay(event) {
+    function retryAutoPlay() {
         if (!state.pendingAutoPlay || !audio.paused) return;
-        if (event && event.target && event.target.closest && event.target.closest('.music-player-widget')) return;
 
         audio.play().then(function () {
             state.pendingAutoPlay = false;
@@ -289,7 +296,7 @@ const managerConfigStr = JSON.stringify({
         }
         var nextIndex;
         if (state.playMode === 2) {
-            nextIndex = Math.floor(Math.random() * state.playlist.length);
+            nextIndex = getRandomIndex(state.currentIndex);
         } else {
             nextIndex = (state.currentIndex + 1) % state.playlist.length;
         }
@@ -299,7 +306,7 @@ const managerConfigStr = JSON.stringify({
     function playPrev() {
         var prevIndex;
         if (state.playMode === 2) {
-            prevIndex = Math.floor(Math.random() * state.playlist.length);
+            prevIndex = getRandomIndex(state.currentIndex);
         } else {
             prevIndex = (state.currentIndex - 1 + state.playlist.length) % state.playlist.length;
         }
