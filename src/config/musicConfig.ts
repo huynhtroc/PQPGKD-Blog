@@ -20,7 +20,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	autoPlay: true,
 
 	// 播放模式：'list'=列表循环, 'one'=单曲循环, 'random'=随机播放
-	playMode: "random",
+	playMode: "list",
 
 	// 是否显启用歌词
 	showLyrics: true,
