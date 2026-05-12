@@ -32,7 +32,7 @@ const managerConfigStr = JSON.stringify({
 	mode: config.mode,
 	meting: config.meting,
 	localPlaylist: localPlaylist,
-	volume: config.volume ?? 0.7,
+	volume: config.volume ?? 0.4,
 	autoPlay: config.autoPlay ?? false,
 	playMode: config.playMode ?? "list",
 	showLyrics: config.showLyrics ?? true,
@@ -111,7 +111,7 @@ const managerConfigStr = JSON.stringify({
         playMode: 0, // 0: list, 1: one, 2: random
         volume: localStorage.getItem('music-player-volume') !== null
             ? parseFloat(localStorage.getItem('music-player-volume'))
-            : (config.volume || 0.7),
+            : (config.volume || 0.4),
         isMuted: false,
         lyrics: [],
         currentLrcIndex: -1,
