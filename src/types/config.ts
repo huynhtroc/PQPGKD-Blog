@@ -696,6 +696,9 @@ export type MusicPlayerConfig = {
 	// 默认音量 (0-1)
 	volume?: number;
 
+	// Autoplay when the music manager initializes.
+	autoPlay?: boolean;
+
 	// 播放模式：'list'=列表循环, 'one'=单曲循环, 'random'=随机播放
 	playMode?: "list" | "one" | "random";
 

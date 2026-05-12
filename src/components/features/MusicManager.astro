@@ -33,6 +33,7 @@ const managerConfigStr = JSON.stringify({
 	meting: config.meting,
 	localPlaylist: localPlaylist,
 	volume: config.volume ?? 0.7,
+	autoPlay: config.autoPlay ?? false,
 	playMode: config.playMode ?? "list",
 	showLyrics: config.showLyrics ?? true,
 	i18n: {
@@ -97,6 +98,8 @@ const managerConfigStr = JSON.stringify({
     // ── Audio element (persistent, attached to body) ────────
     var audio = document.createElement('audio');
     audio.crossOrigin = 'anonymous';
+    audio.autoplay = !!config.autoPlay;
+    audio.preload = 'auto';
     audio.style.display = 'none';
     document.body.appendChild(audio);
 
@@ -114,8 +117,11 @@ const managerConfigStr = JSON.stringify({
         currentLrcIndex: -1,
         initialized: false,
         initializing: false,
+        pendingAutoPlay: false,
         error: null
     };
+
+    var autoPlayRetryInstalled = false;
 
     // Map config playMode string to number
     if (config.playMode === 'random') state.playMode = 2;
@@ -125,6 +131,35 @@ const managerConfigStr = JSON.stringify({
     // ── Event helpers ────────────────────────────────────────
     function emit(name, detail) {
         window.dispatchEvent(new CustomEvent(name, { detail: detail || {} }));
+    }
+
+    function removeAutoPlayRetry() {
+        window.removeEventListener('pointerdown', retryAutoPlay);
+        window.removeEventListener('keydown', retryAutoPlay);
+        window.removeEventListener('touchstart', retryAutoPlay);
+        autoPlayRetryInstalled = false;
+    }
+
+    function installAutoPlayRetry() {
+        if (autoPlayRetryInstalled) return;
+        autoPlayRetryInstalled = true;
+        window.addEventListener('pointerdown', retryAutoPlay, { passive: true });
+        window.addEventListener('keydown', retryAutoPlay);
+        window.addEventListener('touchstart', retryAutoPlay, { passive: true });
+    }
+
+    function retryAutoPlay(event) {
+        if (!state.pendingAutoPlay || !audio.paused) return;
+        if (event && event.target && event.target.closest && event.target.closest('.music-player-widget')) return;
+
+        audio.play().then(function () {
+            state.pendingAutoPlay = false;
+            state.isPlaying = true;
+            removeAutoPlayRetry();
+            emit('fm:play-state', { isPlaying: true });
+        }).catch(function (e) {
+            console.warn('Autoplay retry blocked:', e);
+        });
     }
 
     // ── Meting fetch ─────────────────────────────────────────
@@ -213,9 +248,15 @@ const managerConfigStr = JSON.stringify({
 
         if (autoPlay) {
             audio.play().then(function () {
+                state.pendingAutoPlay = false;
                 state.isPlaying = true;
+                removeAutoPlayRetry();
                 emit('fm:play-state', { isPlaying: true });
             }).catch(function (e) {
+                state.isPlaying = false;
+                state.pendingAutoPlay = true;
+                installAutoPlayRetry();
+                emit('fm:play-state', { isPlaying: false });
                 console.warn('Autoplay blocked:', e);
             });
         } else {
@@ -228,7 +269,9 @@ const managerConfigStr = JSON.stringify({
     function togglePlay() {
         if (audio.paused) {
             audio.play().then(function () {
+                state.pendingAutoPlay = false;
                 state.isPlaying = true;
+                removeAutoPlayRetry();
                 emit('fm:play-state', { isPlaying: true });
             });
         } else {
@@ -374,7 +417,7 @@ const managerConfigStr = JSON.stringify({
                     isMuted: state.isMuted
                 });
 
-                loadTrack(startIndex, false);
+                loadTrack(startIndex, !!config.autoPlay);
             } else {
                 state.initialized = true;
                 emit('fm:init', {
